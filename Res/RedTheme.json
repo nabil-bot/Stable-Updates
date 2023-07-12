@@ -1,0 +1,12 @@
+{
+    "QFrame": {
+        "background-color": "rgb(212, 235, 255)",
+        "border-bottom-left-radius": "2px",
+        "border-top-right-radius": "2px",
+        "border-bottom-right-radius": "2px",
+        "border-top-left-radius": "2px",
+        "border": "2px solid",
+        "border-color": "rgb(255, 0, 0)",
+        "padding": "3px"
+    }
+}

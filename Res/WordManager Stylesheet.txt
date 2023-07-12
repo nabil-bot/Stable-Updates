@@ -1,0 +1,136 @@
+QTableWidget {
+    background-color: rgb(1, 22, 39);
+    selection-background-color: rgb(188, 243, 255);
+	color:rgb(255, 255, 255);
+	gridline-color:#00695C;
+	font: "SolaimanLipi";
+	font-size: 16px;
+}
+QTableWidget::item {
+    color: black;
+}
+QTableWidget::item:hover {
+    background-color: #6eb5d5;
+    color: white;
+}
+QTabWidget::pane {
+    border: 1px solid #000000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+QTabWidget::tab-bar {
+    left: 5px;
+}
+
+QTabBar::tab {
+	background-color:qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 244, 255, 255), stop:1 rgba(3, 115, 255, 255));
+    border: 1px solid #000000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-width: 80px;
+    padding: 2px;
+	color:white
+}
+
+QTabBar::tab:selected {
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #429de3, stop: 1 #2d70b8);
+	color: rgb(255, 255, 255);
+}
+
+QTabBar::tab:hover {
+	 background-color: qlineargradient(spread:pad, x1:0.505636, y1:0.221, x2:0.431818, y2:1, stop:0 rgba(89, 255, 255, 255), stop:1 rgba(60, 138, 255, 255));
+color:black;
+}
+QLineEdit {  
+	background-color: #f5f5f5;
+    color: black;
+    border: 2px solid white;
+	font: "SolaimanLipi";
+	font-size: 16px;
+}
+QLineEdit:focus {
+    border: 2px solid #00bfff;
+}
+QLineEdit:hover {
+	background-color: rgb(224, 237, 244);
+}
+QHeaderView::section {
+	background-color: rgb(105, 171, 216);
+    color: white;
+    padding-left: 4px;
+    border: 1px solid #ffffff;
+}
+QHeaderView::section:checked {
+    background-color: #429de3;
+    color: white;
+}
+
+QDockWidget {
+	background-color: rgb(105, 171, 216);
+    color: white;
+    font-size: 12px;
+    border: 2px solid white;
+}
+
+QScrollBar::handle:vertical { 
+	background-color: rgb(0, 255, 0);
+}
+
+QScrollBar::handle:vertical:pressed {
+
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+}
+
+QPushButton{
+ padding-top:2px;
+padding-bottom:2px;
+ padding-left:6px;
+padding-right:6px;
+	font: 10pt "MS Shell Dlg 2l";
+background-color:qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 244, 255, 255), stop:1 rgba(3, 115, 255, 255));
+
+border:1px solid rgb(253, 254, 254);
+	color: rgb(255, 255, 255);
+border-radius:2px;
+}
+QPushButton:hover{
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(63, 63, 63, 255), stop:1 rgba(33, 33, 33, 255));
+ background-color: qlineargradient(spread:pad, x1:0.505636, y1:0.221, x2:0.431818, y2:1, stop:0 rgba(89, 255, 255, 255), stop:1 rgba(60, 138, 255, 255));
+
+}
+QPushButton:pressed{
+background-color: qlineargradient(spread:pad, x1:0.767, y1:1, x2:1, y2:0, stop:0 rgba(0, 244, 255, 255), stop:1 rgba(3, 115, 255, 255));
+}
+
+
+
+
+QTableWidget {
+    background-color: #f5f5f5;
+    alternate-background-color: #e6e6e6;
+    gridline-color: #cccccc;
+    border: none;
+    selection-background-color: #cceeff;
+    selection-color: #000000;
+    font: "SolaimanLipi";
+    font-size: 16px;
+}
+
+QHeaderView::section {
+    background-color: #d9d9d9;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+QTableWidget::item:selected {
+    background-color: #cceeff;
+    color: #000000;
+}
+
+
+
+
+

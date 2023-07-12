@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>361</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ListContextMenu</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>71</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListWidget {
+    background-color: #ffffff; /* sets the background color of the list widget */
+}
+
+QListWidget::item {
+    padding: 2px;
+}
+
+QListWidget::item:hover {
+    background-color: #87CEFA; 
+    color: black;
+}
+
+QListWidget::item:selected {
+    background-color: #F0F0F0; /* sets the background color of a selected item */
+    color: #000000; /* sets the text color of a selected item */
+}
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Copy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(249, 249, 249);
+border: 2px solid rgb(255, 255, 0);
+border-radius:8px;</string>
+   </property>
+   <property name="text">
+    <string>DeActivated</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

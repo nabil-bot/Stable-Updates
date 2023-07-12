@@ -1,0 +1,12 @@
+#SingleInstance, Force
+SetTitleMatchMode, 2
+
+if ProcessExist("Kontho.exe") {
+    MsgBox, Warning, Another instance is already running.
+    ExitApp
+}
+
+ProcessExist(processName) {
+    Process, Exist, %processName%
+    return ErrorLevel
+}
