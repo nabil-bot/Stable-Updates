@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>488</width>
+    <width>437</width>
     <height>639</height>
    </rect>
   </property>
@@ -290,33 +290,7 @@ Click Activate to upgrade and unlock them.</string>
         <string>Genarel</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_4">
-        <item row="1" column="1">
-         <spacer name="horizontalSpacer_2">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item row="1" column="4">
-         <spacer name="horizontalSpacer">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item row="1" column="2" colspan="2">
+        <item row="1" column="1" colspan="2">
          <widget class="QScrollArea" name="scrollArea">
           <property name="widgetResizable">
            <bool>true</bool>
@@ -325,8 +299,8 @@ Click Activate to upgrade and unlock them.</string>
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-8</y>
-             <width>351</width>
+             <y>0</y>
+             <width>361</width>
              <height>567</height>
             </rect>
            </property>
@@ -350,7 +324,7 @@ Click Activate to upgrade and unlock them.</string>
              <widget class="QFrame" name="frame">
               <property name="minimumSize">
                <size>
-                <width>351</width>
+                <width>361</width>
                 <height>0</height>
                </size>
               </property>
@@ -576,6 +550,9 @@ color: rgb(175, 175, 175);
                    <height>1</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
                  </property>
@@ -596,6 +573,9 @@ color: rgb(175, 175, 175);
                    <height>1</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
                  </property>
@@ -615,6 +595,9 @@ color: rgb(175, 175, 175);
                    <width>16777215</width>
                    <height>1</height>
                   </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
                  </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
@@ -650,6 +633,9 @@ color: rgb(175, 175, 175);
                    <height>1</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
                  </property>
@@ -662,6 +648,9 @@ color: rgb(175, 175, 175);
                    <width>16777215</width>
                    <height>1</height>
                   </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
                  </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
@@ -682,6 +671,9 @@ color: rgb(175, 175, 175);
                    <width>16777215</width>
                    <height>1</height>
                   </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
                  </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
@@ -716,6 +708,9 @@ color: rgb(175, 175, 175);
                    <height>1</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
                  </property>
@@ -740,6 +735,9 @@ color: rgb(175, 175, 175);
                </item>
                <item row="9" column="2">
                 <widget class="Line" name="line_29">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Vertical</enum>
                  </property>
@@ -759,6 +757,9 @@ color: rgb(175, 175, 175);
                    <width>16777215</width>
                    <height>1</height>
                   </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
                  </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
@@ -803,6 +804,9 @@ color: rgb(175, 175, 175);
                    <height>1</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
                  </property>
@@ -832,6 +836,9 @@ color: rgb(175, 175, 175);
                    <height>1</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
                  </property>
@@ -860,7 +867,7 @@ color: rgb(175, 175, 175);
                <item row="3" column="0">
                 <widget class="QCheckBox" name="AutoCloseCheckBox">
                  <property name="text">
-                  <string>Auto close brackets () {} []</string>
+                  <string>Auto close brackets</string>
                  </property>
                 </widget>
                </item>
@@ -878,6 +885,9 @@ color: rgb(175, 175, 175);
                    <width>16777215</width>
                    <height>1</height>
                   </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
                  </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
@@ -931,6 +941,9 @@ color: rgb(175, 175, 175);
                    <height>1</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
                  </property>
@@ -943,6 +956,9 @@ color: rgb(175, 175, 175);
                    <width>16777215</width>
                    <height>1</height>
                   </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
                  </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
@@ -967,6 +983,9 @@ color: rgb(175, 175, 175);
                    <height>1</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
                  </property>
@@ -989,6 +1008,9 @@ suggest for misspelled word:</string>
                </item>
                <item row="22" column="2">
                 <widget class="Line" name="line_30">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Vertical</enum>
                  </property>
@@ -1002,6 +1024,9 @@ suggest for misspelled word:</string>
                    <height>1</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
                  </property>
@@ -1014,6 +1039,9 @@ suggest for misspelled word:</string>
                    <width>16777215</width>
                    <height>1</height>
                   </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
                  </property>
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
@@ -1055,8 +1083,18 @@ suggest for misspelled word:</string>
                </item>
                <item row="11" column="2">
                 <widget class="Line" name="line_16">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 255);</string>
+                 </property>
                  <property name="orientation">
                   <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1" colspan="3">
+                <widget class="QCheckBox" name="AutoCheckForUpdatesCheckBox">
+                 <property name="text">
+                  <string>Auto check for Updates</string>
                  </property>
                 </widget>
                </item>
@@ -1066,6 +1104,38 @@ suggest for misspelled word:</string>
            </layout>
           </widget>
          </widget>
+        </item>
+        <item row="1" column="3">
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0">
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
         </item>
        </layout>
       </widget>
@@ -1784,7 +1854,7 @@ color: rgba(0, 0, 0, 210);</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>461</width>
+             <width>437</width>
              <height>832</height>
             </rect>
            </property>
