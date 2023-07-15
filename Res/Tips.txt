@@ -1,7 +1,3 @@
-To toggle the typing mode, press and hold the Shift key while hovering over the Kontho pad.||
-To paste the previously copied item from the clipboard, press Alt + V.||
-To spellcheck a highlighted word, press and hold Ctrl, then right-click the mouse.||
-To switch languages, press the F12 key.||
 For minor issues, simply switch languages once or restart the application to resolve any potential glitches.||
 If you encounter any bugs, please report them by visiting the Nms Kontho Facebook page.||
 Customize the appearance of the word suggestion window by accessing the settings.||
@@ -13,4 +9,8 @@ The properties of both the mouse and window can be viewed using the "Win Inspect
 You can use Function keys (F1, F2, F3...) to select words from the suggestions.||
 You can change font family and size of word suggestion window by going to the Settings -> Appearance.||
 To keep a window always on top, activate the window and then press Ctrl + Space.||
-To make a word autofill, right-click on the word and select "Bring on Top" from the context menu.
+To make a word autofill, right-click on the word and select "Bring on Top" from the context menu.||
+To toggle the typing mode, press and hold the Shift key while hovering over the Kontho pad.||
+To paste the previously copied item from the clipboard, press Alt + V.||
+To spellcheck a highlighted word, press and hold Ctrl, then right-click the mouse.||
+To switch languages, press the F12 key.
