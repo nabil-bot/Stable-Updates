@@ -1855,7 +1855,7 @@ color: rgba(0, 0, 0, 210);</string>
              <x>0</x>
              <y>0</y>
              <width>437</width>
-             <height>832</height>
+             <height>853</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_9">
@@ -1992,7 +1992,7 @@ border-top: 1px solid gray;</string>
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>90</height>
+                   <height>111</height>
                   </size>
                  </property>
                  <property name="maximumSize">
@@ -2011,13 +2011,16 @@ border-top: 1px solid gray;</string>
                   <enum>QFrame::Raised</enum>
                  </property>
                  <layout class="QGridLayout" name="gridLayout_12">
-                  <item row="0" column="0">
-                   <widget class="QLabel" name="label_40">
-                    <property name="styleSheet">
-                     <string notr="true"/>
+                  <item row="4" column="1">
+                   <widget class="QCheckBox" name="HoverAnimationCheckBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>20</height>
+                     </size>
                     </property>
                     <property name="text">
-                     <string>Size:</string>
+                     <string>Hover Animation</string>
                     </property>
                    </widget>
                   </item>
@@ -2031,6 +2034,16 @@ border-top: 1px solid gray;</string>
                     </property>
                     <property name="maximum">
                      <number>20</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_40">
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>Size:</string>
                     </property>
                    </widget>
                   </item>
@@ -2071,6 +2084,19 @@ border-top: 1px solid gray;</string>
                    <widget class="QLabel" name="label_19">
                     <property name="text">
                      <string>Y Position on screen:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="1">
+                   <widget class="Line" name="line_39">
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>1</height>
+                     </size>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
                     </property>
                    </widget>
                   </item>
