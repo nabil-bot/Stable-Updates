@@ -1288,7 +1288,7 @@ background-color: qlineargradient(spread:pad, x1:0.767, y1:1, x2:1, y2:0, stop:0
              <x>0</x>
              <y>0</y>
              <width>361</width>
-             <height>638</height>
+             <height>644</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_6">
@@ -1355,6 +1355,12 @@ QComboBox {
               <layout class="QGridLayout" name="gridLayout_2">
                <item row="5" column="0">
                 <widget class="QLabel" name="label_35">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>25</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>English Accent:</string>
                  </property>
@@ -1502,6 +1508,12 @@ color: rgba(0, 0, 0, 210);</string>
                </item>
                <item row="12" column="0">
                 <widget class="QLabel" name="label_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>25</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Pause Threshold ______:</string>
                  </property>
@@ -1578,6 +1590,12 @@ color: rgba(0, 0, 0, 210);</string>
                </item>
                <item row="2" column="0">
                 <widget class="QLabel" name="label_11">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>25</height>
+                  </size>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">border-color: 1px solid rgb(0, 0, 127);</string>
                  </property>
@@ -1628,6 +1646,12 @@ color: rgba(0, 0, 0, 210);</string>
                </item>
                <item row="9" column="0">
                 <widget class="QLabel" name="label">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>25</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Energy Threshold _____:</string>
                  </property>
@@ -1635,6 +1659,12 @@ color: rgba(0, 0, 0, 210);</string>
                </item>
                <item row="10" column="0" colspan="3">
                 <widget class="QLabel" name="label_5">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>25</height>
+                  </size>
+                 </property>
                  <property name="styleSheet">
                   <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;
 color: rgba(0, 0, 0, 210);</string>
@@ -1721,6 +1751,12 @@ color: rgba(0, 0, 0, 210);</string>
                </item>
                <item row="4" column="0">
                 <widget class="QLabel" name="label_34">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>25</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Bangla Accent:</string>
                  </property>
@@ -1728,6 +1764,12 @@ color: rgba(0, 0, 0, 210);</string>
                </item>
                <item row="4" column="1" colspan="2">
                 <widget class="QComboBox" name="AccentComboBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>25</height>
+                  </size>
+                 </property>
                  <item>
                   <property name="text">
                    <string>Bangla (BD)</string>
@@ -1755,6 +1797,12 @@ color: rgba(0, 0, 0, 210);</string>
                </item>
                <item row="5" column="1" colspan="2">
                 <widget class="QComboBox" name="EnglishAccentComboBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>25</height>
+                  </size>
+                 </property>
                  <item>
                   <property name="text">
                    <string>English (US)</string>
@@ -1774,6 +1822,12 @@ color: rgba(0, 0, 0, 210);</string>
                </item>
                <item row="0" column="0" colspan="2">
                 <widget class="QCheckBox" name="defultMicCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>20</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Use defult Audio input device</string>
                  </property>
@@ -2039,6 +2093,12 @@ border-top: 1px solid gray;</string>
                   </item>
                   <item row="0" column="0">
                    <widget class="QLabel" name="label_40">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>20</height>
+                     </size>
+                    </property>
                     <property name="styleSheet">
                      <string notr="true"/>
                     </property>
@@ -2049,6 +2109,12 @@ border-top: 1px solid gray;</string>
                   </item>
                   <item row="1" column="0">
                    <widget class="QLabel" name="label_41">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>20</height>
+                     </size>
+                    </property>
                     <property name="text">
                      <string>X Position on screen:</string>
                     </property>
@@ -2082,6 +2148,12 @@ border-top: 1px solid gray;</string>
                   </item>
                   <item row="2" column="0">
                    <widget class="QLabel" name="label_19">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>20</height>
+                     </size>
+                    </property>
                     <property name="text">
                      <string>Y Position on screen:</string>
                     </property>
@@ -2105,6 +2177,12 @@ border-top: 1px solid gray;</string>
                </item>
                <item>
                 <widget class="QLabel" name="label_21">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
@@ -2128,6 +2206,12 @@ border-top: 1px solid gray;</string>
                </item>
                <item>
                 <widget class="QLabel" name="label_38">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>22</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>(switch language once, to see the changes)</string>
                  </property>
@@ -2316,6 +2400,12 @@ border-top: 1px solid gray;</string>
                   </item>
                   <item row="0" column="0">
                    <widget class="QLabel" name="label_22">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>20</height>
+                     </size>
+                    </property>
                     <property name="text">
                      <string>Bangla Font:</string>
                     </property>
