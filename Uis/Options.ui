@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>437</width>
+    <width>456</width>
     <height>639</height>
    </rect>
   </property>
@@ -290,6 +290,22 @@ Click Activate to upgrade and unlock them.</string>
         <string>Genarel</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_4">
+        <item row="1" column="3">
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>5</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
         <item row="1" column="1" colspan="2">
          <widget class="QScrollArea" name="scrollArea">
           <property name="widgetResizable">
@@ -942,7 +958,7 @@ color: rgb(175, 175, 175);
                <item row="23" column="3">
                 <widget class="QRadioButton" name="SelectionRadioButton">
                  <property name="enabled">
-                  <bool>false</bool>
+                  <bool>true</bool>
                  </property>
                  <property name="minimumSize">
                   <size>
@@ -1097,22 +1113,6 @@ suggest for misspelled word:</string>
            </layout>
           </widget>
          </widget>
-        </item>
-        <item row="1" column="3">
-         <spacer name="horizontalSpacer">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeType">
-           <enum>QSizePolicy::Minimum</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>5</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
         </item>
         <item row="1" column="0">
          <spacer name="horizontalSpacer_2">
@@ -2080,7 +2080,7 @@ border-top: 1px solid gray;</string>
                      </size>
                     </property>
                     <property name="maximum">
-                     <number>20</number>
+                     <number>35</number>
                     </property>
                    </widget>
                   </item>
