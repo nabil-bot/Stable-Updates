@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>456</width>
+    <width>475</width>
     <height>639</height>
    </rect>
   </property>
@@ -73,7 +73,7 @@ color:black;
 QCheckBox {
  background: transparent;
 height: 18px;
-font-size:12px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
 }
 
 QCheckBox:disabled {
@@ -113,6 +113,7 @@ QCheckBox::indicator:checked:hover {
 QRadioButton {
    background-color: transparent;
    color: black;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
 }
 
 QRadioButton::indicator {
@@ -290,23 +291,7 @@ Click Activate to upgrade and unlock them.</string>
         <string>Genarel</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_4">
-        <item row="1" column="3">
-         <spacer name="horizontalSpacer">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeType">
-           <enum>QSizePolicy::Minimum</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>5</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item row="1" column="1" colspan="2">
+        <item row="1" column="0" colspan="2">
          <widget class="QScrollArea" name="scrollArea">
           <property name="widgetResizable">
            <bool>true</bool>
@@ -316,8 +301,8 @@ Click Activate to upgrade and unlock them.</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>361</width>
-             <height>567</height>
+             <width>430</width>
+             <height>608</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -340,21 +325,28 @@ Click Activate to upgrade and unlock them.</string>
              <widget class="QFrame" name="frame">
               <property name="minimumSize">
                <size>
-                <width>361</width>
+                <width>380</width>
                 <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>400</width>
+                <height>16777215</height>
                </size>
               </property>
               <property name="styleSheet">
                <string notr="true">
 QLineEdit{
 background-color: rgb(255, 255, 255);
+
 }
 QCheckBox{
 background:transparent;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
 }
 QLabel{
-font: 10pt &quot;MS Shell Dlg 2&quot;;
-	font: 10pt &quot;Century Gothic&quot;;
+font: 12pt &quot;MS Shell Dlg 2&quot;;
 background: transparent;
 }
 QGroupBox{
@@ -415,6 +407,12 @@ color: rgb(175, 175, 175);
                   </property>
                   <item>
                    <widget class="QCheckBox" name="TabCheckBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>24</height>
+                     </size>
+                    </property>
                     <property name="text">
                      <string>Tab</string>
                     </property>
@@ -461,6 +459,12 @@ color: rgb(175, 175, 175);
                   </item>
                   <item>
                    <widget class="QCheckBox" name="Function_checkBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>24</height>
+                     </size>
+                    </property>
                     <property name="toolTip">
                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                     </property>
@@ -510,7 +514,7 @@ color: rgb(175, 175, 175);
                     <property name="minimumSize">
                      <size>
                       <width>0</width>
-                      <height>18</height>
+                      <height>24</height>
                      </size>
                     </property>
                     <property name="text">
@@ -523,7 +527,7 @@ color: rgb(175, 175, 175);
                     <property name="minimumSize">
                      <size>
                       <width>18</width>
-                      <height>0</height>
+                      <height>24</height>
                      </size>
                     </property>
                     <property name="text">
@@ -533,6 +537,12 @@ color: rgb(175, 175, 175);
                   </item>
                   <item>
                    <widget class="QCheckBox" name="SentenceCheckBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>24</height>
+                     </size>
+                    </property>
                     <property name="toolTip">
                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Not Recommended&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                     </property>
@@ -544,15 +554,14 @@ color: rgb(175, 175, 175);
                  </layout>
                 </widget>
                </item>
-               <item row="0" column="0" colspan="2">
-                <widget class="QCheckBox" name="RunAtAtartUpCheckBox">
-                 <property name="text">
-                  <string>Run automatically at startup</string>
-                 </property>
-                </widget>
-               </item>
                <item row="15" column="0">
                 <widget class="QLabel" name="label_13">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string> Predict for:</string>
                  </property>
@@ -560,6 +569,12 @@ color: rgb(175, 175, 175);
                </item>
                <item row="1" column="1" colspan="3">
                 <widget class="QCheckBox" name="TipsCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Show Tips</string>
                  </property>
@@ -615,6 +630,12 @@ color: rgb(175, 175, 175);
                </item>
                <item row="21" column="0">
                 <widget class="QCheckBox" name="RememberCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Remember last 100 words</string>
                  </property>
@@ -622,6 +643,12 @@ color: rgb(175, 175, 175);
                </item>
                <item row="23" column="0">
                 <widget class="QLabel" name="label_18">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Trigger completion by</string>
                  </property>
@@ -629,6 +656,12 @@ color: rgb(175, 175, 175);
                </item>
                <item row="21" column="1" colspan="3">
                 <widget class="QCheckBox" name="SuggestEmojiesCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Suggest emojis</string>
                  </property>
@@ -704,6 +737,12 @@ color: rgb(175, 175, 175);
                </item>
                <item row="1" column="0">
                 <widget class="QCheckBox" name="splashCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Show splash screen</string>
                  </property>
@@ -767,6 +806,12 @@ color: rgb(175, 175, 175);
                </item>
                <item row="10" column="0">
                 <widget class="QLabel" name="label_12">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Max word prediction:</string>
                  </property>
@@ -784,6 +829,12 @@ color: rgb(175, 175, 175);
                </item>
                <item row="8" column="0">
                 <widget class="QCheckBox" name="ClipBoardCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Track clipboard</string>
                  </property>
@@ -905,6 +956,12 @@ color: rgb(175, 175, 175);
                </item>
                <item row="29" column="0">
                 <widget class="QLabel" name="label_15">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>English Dictionary:</string>
                  </property>
@@ -1010,6 +1067,12 @@ suggest for misspelled word:</string>
                </item>
                <item row="6" column="0">
                 <widget class="QCheckBox" name="UseAbrisCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Abbreviations</string>
                  </property>
@@ -1089,6 +1152,12 @@ suggest for misspelled word:</string>
                </item>
                <item row="27" column="0">
                 <widget class="QLabel" name="label_14">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
@@ -1102,8 +1171,27 @@ suggest for misspelled word:</string>
                </item>
                <item row="4" column="0">
                 <widget class="QCheckBox" name="AutoCheckForUpdatesCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Auto check for Updates</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0" colspan="4">
+                <widget class="QCheckBox" name="RunAtAtartUpCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Run automatically at startup</string>
                  </property>
                 </widget>
                </item>
@@ -1113,22 +1201,6 @@ suggest for misspelled word:</string>
            </layout>
           </widget>
          </widget>
-        </item>
-        <item row="1" column="0">
-         <spacer name="horizontalSpacer_2">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeType">
-           <enum>QSizePolicy::Minimum</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>5</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
         </item>
        </layout>
       </widget>
@@ -1901,7 +1973,7 @@ color: rgba(0, 0, 0, 210);</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>437</width>
+             <width>448</width>
              <height>853</height>
             </rect>
            </property>
