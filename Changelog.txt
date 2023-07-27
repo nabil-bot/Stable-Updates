@@ -1,2 +1,3 @@
 Corrected the error pertaining to saving abbreviations.
 Implemented the changelog feature.
+Mouse wheel behavior adjusted: Values will not change on scrolling.
