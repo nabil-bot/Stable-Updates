@@ -1,0 +1,6 @@
+{
+    "version": 2.0,
+    "Changelog": "Corrected the error pertaining to saving abbreviations.\nImplemented the changelog feature.\nMouse wheel behavior adjusted: Values will not change on scrolling.",
+    "size": "20mb",
+    "reinstall": false
+}
