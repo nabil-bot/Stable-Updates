@@ -2,5 +2,6 @@
     "version": 2.0,
     "Changelog": "this is a test log",
     "size": "20mb",
-    "reinstall": true
+    "reinstall": true,
+    "minVersion": 2.0
 }
