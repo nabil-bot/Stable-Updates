@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>539</width>
+    <width>469</width>
     <height>639</height>
    </rect>
   </property>
@@ -28,17 +28,20 @@
   background-color: rgb(105, 171, 216);
 }
 QLineEdit {
-	background-color: rgb(1, 22, 39);    
+	background-color: rgb(218, 218, 218);
     color: black;
-    border: 2px solid white;
-    font-size: 12px;
+    border: 2px solid gray;
+    
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
 	min-height: 25px;
+	 border-radius: 5px;
 }
 QLineEdit:focus {
     border: 2px solid rgb(0, 170, 255);
 }
 QLineEdit:hover {
-	background-color: rgb(0, 255, 179);
+	
+	background-color: rgb(238, 238, 238);
 }
 QTabWidget::pane {
     border: 1px solid #000000;
@@ -181,7 +184,7 @@ border-radius: 5px;
 }
 
 QFrame{	
-background-color: rgba(250, 250, 250, 250);
+background-color: rgb(222, 222, 222);
 border-radius: 10px;
 }
 Line{
@@ -307,13 +310,6 @@ Click Activate to upgrade and unlock them.</string>
       </layout>
      </widget>
     </item>
-    <item row="3" column="0" rowspan="3">
-     <widget class="Line" name="line_26">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-    </item>
     <item row="3" column="2" rowspan="3">
      <widget class="Line" name="line_25">
       <property name="orientation">
@@ -321,11 +317,24 @@ Click Activate to upgrade and unlock them.</string>
       </property>
      </widget>
     </item>
+    <item row="3" column="0" rowspan="3">
+     <widget class="Line" name="line_26">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
     <item row="3" column="1">
      <widget class="QTabWidget" name="tabWidget">
+      <property name="minimumSize">
+       <size>
+        <width>450</width>
+        <height>0</height>
+       </size>
+      </property>
       <property name="maximumSize">
        <size>
-        <width>16777215</width>
+        <width>400</width>
         <height>16777215</height>
        </size>
       </property>
@@ -334,7 +343,7 @@ Click Activate to upgrade and unlock them.</string>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
-        <string>Genarel</string>
+        <string>General</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_4">
         <item row="1" column="0" colspan="2">
@@ -347,8 +356,8 @@ Click Activate to upgrade and unlock them.</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>496</width>
-             <height>650</height>
+             <width>413</width>
+             <height>786</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -377,7 +386,7 @@ Click Activate to upgrade and unlock them.</string>
               </property>
               <property name="maximumSize">
                <size>
-                <width>425</width>
+                <width>430</width>
                 <height>16777215</height>
                </size>
               </property>
@@ -394,23 +403,100 @@ Click Activate to upgrade and unlock them.</string>
                <property name="rightMargin">
                 <number>10</number>
                </property>
-               <item row="25" column="0">
-                <widget class="QLabel" name="label_15">
+               <item row="14" column="0" colspan="4">
+                <widget class="QGroupBox" name="groupBox_3">
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>26</height>
+                   <height>28</height>
                   </size>
                  </property>
-                 <property name="maximumSize">
+                 <property name="sizeIncrement">
                   <size>
-                   <width>16777215</width>
-                   <height>26</height>
+                   <width>0</width>
+                   <height>68</height>
                   </size>
                  </property>
-                 <property name="text">
-                  <string>English Dictionary:</string>
+                 <property name="title">
+                  <string/>
                  </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_2">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QCheckBox" name="banglaSuggestCheckBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>24</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>25</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Bangla</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QCheckBox" name="EnglishSuggestCheckBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>18</width>
+                      <height>24</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>25</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>English</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QCheckBox" name="SentenceCheckBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>24</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>25</height>
+                     </size>
+                    </property>
+                    <property name="toolTip">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                    <property name="text">
+                     <string>Next Word</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
                 </widget>
                </item>
                <item row="17" column="0" colspan="4">
@@ -509,100 +595,67 @@ Click Activate to upgrade and unlock them.</string>
                  </layout>
                 </widget>
                </item>
-               <item row="14" column="0" colspan="4">
-                <widget class="QGroupBox" name="groupBox_3">
+               <item row="28" column="0">
+                <widget class="QLabel" name="label_15">
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>28</height>
+                   <height>26</height>
                   </size>
                  </property>
-                 <property name="sizeIncrement">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>26</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>English Dictionary:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0" colspan="4">
+                <widget class="QCheckBox" name="AutoCheckForUpdatesCheckBox">
+                 <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>68</height>
+                   <height>24</height>
                   </size>
                  </property>
-                 <property name="title">
-                  <string/>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>26</height>
+                  </size>
                  </property>
-                 <layout class="QHBoxLayout" name="horizontalLayout_2">
-                  <property name="spacing">
-                   <number>0</number>
-                  </property>
-                  <property name="leftMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="topMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="rightMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="bottomMargin">
-                   <number>0</number>
-                  </property>
-                  <item>
-                   <widget class="QCheckBox" name="banglaSuggestCheckBox">
-                    <property name="minimumSize">
-                     <size>
-                      <width>0</width>
-                      <height>24</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>16777215</width>
-                      <height>25</height>
-                     </size>
-                    </property>
-                    <property name="text">
-                     <string>Bangla</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QCheckBox" name="EnglishSuggestCheckBox">
-                    <property name="minimumSize">
-                     <size>
-                      <width>18</width>
-                      <height>24</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>16777215</width>
-                      <height>25</height>
-                     </size>
-                    </property>
-                    <property name="text">
-                     <string>English</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QCheckBox" name="SentenceCheckBox">
-                    <property name="minimumSize">
-                     <size>
-                      <width>0</width>
-                      <height>24</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>16777215</width>
-                      <height>25</height>
-                     </size>
-                    </property>
-                    <property name="toolTip">
-                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Not Recommended&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                    </property>
-                    <property name="text">
-                     <string>Next Word</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enable automatic update checks. We recommend keeping this option enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Auto check for Updates</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0" colspan="4">
+                <widget class="QCheckBox" name="splashCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>26</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Display the Kontho splash screen during application launch.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Show splash</string>
+                 </property>
                 </widget>
                </item>
                <item row="5" column="0" colspan="3">
@@ -621,82 +674,6 @@ Click Activate to upgrade and unlock them.</string>
                  </property>
                  <property name="text">
                   <string>Abbreviations</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="3" column="0" colspan="4">
-                <widget class="QCheckBox" name="TipsCheckBox">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>24</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>26</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Show Tips</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="0" colspan="4">
-                <widget class="QCheckBox" name="splashCheckBox">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>24</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>26</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Show splash</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="4" column="0" colspan="4">
-                <widget class="QCheckBox" name="AutoCheckForUpdatesCheckBox">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>24</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>26</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Auto check for Updates</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="19" column="0">
-                <widget class="QCheckBox" name="RememberCheckBox">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>24</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>25</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Remember words</string>
                  </property>
                 </widget>
                </item>
@@ -719,6 +696,47 @@ Click Activate to upgrade and unlock them.</string>
                  </property>
                 </widget>
                </item>
+               <item row="19" column="0">
+                <widget class="QCheckBox" name="RememberCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Remember words</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0" colspan="4">
+                <widget class="QCheckBox" name="TipsCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>26</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Present informative and helpful tips to enhance your experience and familiarity with the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Show Tips</string>
+                 </property>
+                </widget>
+               </item>
                <item row="19" column="1" colspan="3">
                 <widget class="QCheckBox" name="SuggestEmojiesCheckBox">
                  <property name="minimumSize">
@@ -738,26 +756,7 @@ Click Activate to upgrade and unlock them.</string>
                  </property>
                 </widget>
                </item>
-               <item row="9" column="1">
-                <widget class="QSpinBox" name="NumOfWrdPredictionSpinBox">
-                 <property name="minimumSize">
-                  <size>
-                   <width>56</width>
-                   <height>30</height>
-                  </size>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true"/>
-                 </property>
-                 <property name="minimum">
-                  <number>3</number>
-                 </property>
-                 <property name="maximum">
-                  <number>15</number>
-                 </property>
-                </widget>
-               </item>
-               <item row="23" column="0" colspan="4">
+               <item row="26" column="0" colspan="4">
                 <widget class="QPushButton" name="ImportLayoutPushButton">
                  <property name="minimumSize">
                   <size>
@@ -776,57 +775,22 @@ Click Activate to upgrade and unlock them.</string>
                  </property>
                 </widget>
                </item>
-               <item row="7" column="3">
-                <widget class="QSpinBox" name="ClipLimitSpinBox">
+               <item row="9" column="1">
+                <widget class="QSpinBox" name="NumOfWrdPredictionSpinBox">
                  <property name="minimumSize">
                   <size>
                    <width>56</width>
                    <height>30</height>
                   </size>
                  </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>26</height>
-                  </size>
+                 <property name="styleSheet">
+                  <string notr="true"/>
                  </property>
                  <property name="minimum">
                   <number>3</number>
                  </property>
                  <property name="maximum">
-                  <number>30</number>
-                 </property>
-                </widget>
-               </item>
-               <item row="7" column="1">
-                <widget class="QLabel" name="label_33">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>26</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>26</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Limit:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="9" column="3">
-                <widget class="QPushButton" name="ResetMaxPushButton">
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>26</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Reset</string>
+                  <number>15</number>
                  </property>
                 </widget>
                </item>
@@ -862,38 +826,25 @@ Click Activate to upgrade and unlock them.</string>
                  </property>
                 </widget>
                </item>
-               <item row="21" column="1">
-                <widget class="QRadioButton" name="EnterToSelectRadioButton">
+               <item row="7" column="3">
+                <widget class="QSpinBox" name="ClipLimitSpinBox">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
-                   <height>25</height>
+                   <width>56</width>
+                   <height>30</height>
                   </size>
                  </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>25</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Enter</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="11" column="3">
-                <widget class="QPushButton" name="ResetSimipushButton">
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
                    <height>26</height>
                   </size>
                  </property>
-                 <property name="text">
-                  <string>Reset</string>
+                 <property name="minimum">
+                  <number>3</number>
+                 </property>
+                 <property name="maximum">
+                  <number>30</number>
                  </property>
                 </widget>
                </item>
@@ -916,12 +867,12 @@ Click Activate to upgrade and unlock them.</string>
                  </property>
                 </widget>
                </item>
-               <item row="24" column="1" colspan="3">
-                <widget class="QPushButton" name="OpenBanglaDic">
+               <item row="7" column="1">
+                <widget class="QLabel" name="label_33">
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>32</height>
+                   <height>26</height>
                   </size>
                  </property>
                  <property name="maximumSize">
@@ -931,7 +882,20 @@ Click Activate to upgrade and unlock them.</string>
                   </size>
                  </property>
                  <property name="text">
-                  <string>Open</string>
+                  <string>Limit:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="3">
+                <widget class="QPushButton" name="ResetMaxPushButton">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>26</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Reset</string>
                  </property>
                 </widget>
                </item>
@@ -954,21 +918,61 @@ Click Activate to upgrade and unlock them.</string>
                  </property>
                 </widget>
                </item>
-               <item row="11" column="0">
-                <widget class="QLabel" name="label_16">
-                 <property name="minimumSize">
+               <item row="11" column="3">
+                <widget class="QPushButton" name="ResetSimipushButton">
+                 <property name="maximumSize">
                   <size>
-                   <width>0</width>
-                   <height>40</height>
+                   <width>16777215</width>
+                   <height>26</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>Minimum similarity ratio to 
-suggest for misspelled word:</string>
+                  <string>Reset</string>
                  </property>
                 </widget>
                </item>
-               <item row="25" column="1" colspan="3">
+               <item row="27" column="1" colspan="3">
+                <widget class="QPushButton" name="OpenBanglaDic">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>26</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Open</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="21" column="1">
+                <widget class="QRadioButton" name="EnterToSelectRadioButton">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Enter</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="28" column="1" colspan="3">
                 <widget class="QPushButton" name="OpenEnglishDic">
                  <property name="minimumSize">
                   <size>
@@ -987,6 +991,74 @@ suggest for misspelled word:</string>
                  </property>
                  <property name="text">
                   <string>Open</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="27" column="0">
+                <widget class="QLabel" name="label_14">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>26</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>26</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Bangla Dictionary:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="0">
+                <widget class="QLabel" name="label_16">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Minimum similarity ratio to 
+suggest for misspelled word:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="15" column="0" colspan="4">
+                <widget class="Line" name="line_10">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>1</height>
+                  </size>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0" colspan="4">
+                <widget class="QCheckBox" name="RunAtAtartUpCheckBox">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>24</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>26</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enable automatic application launch at system startup, eliminating the need for manual initiation each time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Run at startup</string>
                  </property>
                 </widget>
                </item>
@@ -1015,44 +1087,6 @@ suggest for misspelled word:</string>
                  </property>
                 </widget>
                </item>
-               <item row="24" column="0">
-                <widget class="QLabel" name="label_14">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>26</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>26</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Bangla Dictionary:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="0" colspan="4">
-                <widget class="QCheckBox" name="RunAtAtartUpCheckBox">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>24</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>26</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Run at startup</string>
-                 </property>
-                </widget>
-               </item>
                <item row="5" column="3">
                 <widget class="QPushButton" name="OpenAbbris">
                  <property name="minimumSize">
@@ -1072,21 +1106,8 @@ suggest for misspelled word:</string>
                  </property>
                 </widget>
                </item>
-               <item row="8" column="0" colspan="4">
-                <widget class="Line" name="line_6">
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>1</height>
-                  </size>
-                 </property>
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                </widget>
-               </item>
-               <item row="15" column="0" colspan="4">
-                <widget class="Line" name="line_10">
+               <item row="12" column="0" colspan="4">
+                <widget class="Line" name="line_7">
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
@@ -1103,6 +1124,52 @@ suggest for misspelled word:</string>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
+                   <height>1</height>
+                  </size>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="20" column="0" colspan="4">
+                <widget class="Line" name="line_13">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>1</height>
+                  </size>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="0" colspan="4">
+                <widget class="Line" name="line_6">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>1</height>
+                  </size>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="22" column="0" colspan="4">
+                <widget class="Line" name="line_14">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0" colspan="4">
+                <widget class="Line" name="line_5">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
                    <height>1</height>
                   </size>
                  </property>
@@ -1130,45 +1197,6 @@ suggest for misspelled word:</string>
                  </property>
                 </widget>
                </item>
-               <item row="12" column="0" colspan="4">
-                <widget class="Line" name="line_7">
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>1</height>
-                  </size>
-                 </property>
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                </widget>
-               </item>
-               <item row="6" column="0" colspan="4">
-                <widget class="Line" name="line_5">
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>1</height>
-                  </size>
-                 </property>
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                </widget>
-               </item>
-               <item row="20" column="0" colspan="4">
-                <widget class="Line" name="line_13">
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>1</height>
-                  </size>
-                 </property>
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                </widget>
-               </item>
                <item row="18" column="0" colspan="4">
                 <widget class="Line" name="line_12">
                  <property name="maximumSize">
@@ -1182,10 +1210,34 @@ suggest for misspelled word:</string>
                  </property>
                 </widget>
                </item>
-               <item row="22" column="0" colspan="4">
-                <widget class="Line" name="line_14">
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
+               <item row="23" column="0" colspan="4">
+                <widget class="QCheckBox" name="DeferredCheckBox">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, changes made in the application will not be immediately saved to the file. Instead, the changes will be temporarily stored, allowing you to work seamlessly without interruption. The changes will be persisted and saved all at once when you close the application, ensuring a faster and smoother user experience. However, please be aware that any changes may be lost in the event of an unexpected system closure.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Save on Exit (Bangla)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0" colspan="4">
+                <widget class="QCheckBox" name="SFXcheckBox">
+                 <property name="text">
+                  <string>Sound fx</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="24" column="0" colspan="4">
+                <widget class="QPushButton" name="ExportSettingsPushButton">
+                 <property name="text">
+                  <string>Export Settings Folder (Res)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="25" column="0" colspan="4">
+                <widget class="QPushButton" name="ImportSettingsPushbutton">
+                 <property name="text">
+                  <string>Import Settings from folder</string>
                  </property>
                 </widget>
                </item>
@@ -1200,10 +1252,10 @@ suggest for misspelled word:</string>
       </widget>
       <widget class="QWidget" name="tab_2">
        <attribute name="title">
-        <string>Speech To text</string>
+        <string>Speech to Text</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_3">
-        <item row="0" column="1">
+        <item row="0" column="0">
          <widget class="QPushButton" name="Manage_pushButton">
           <property name="minimumSize">
            <size>
@@ -1243,12 +1295,18 @@ background-color: qlineargradient(spread:pad, x1:0.767, y1:1, x2:1, y2:0, stop:0
           </property>
          </widget>
         </item>
-        <item row="5" column="1">
+        <item row="5" column="0">
          <widget class="QPushButton" name="Apply_pushButton">
           <property name="minimumSize">
            <size>
             <width>0</width>
             <height>29</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>430</width>
+            <height>16777215</height>
            </size>
           </property>
           <property name="styleSheet">
@@ -1278,12 +1336,53 @@ background-color: qlineargradient(spread:pad, x1:0.767, y1:1, x2:1, y2:0, stop:0
           </property>
          </widget>
         </item>
-        <item row="3" column="1">
+        <item row="4" column="0">
+         <widget class="QPushButton" name="Developer_recomendation_Button">
+          <property name="maximumSize">
+           <size>
+            <width>430</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+ padding-top:2px;
+	font: 12pt &quot;MS Shell Dlg 2l&quot;;
+ color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(33, 33, 33, 255), stop:1 rgba(75, 75, 75, 255));
+background-color:qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 244, 255, 255), stop:1 rgba(3, 115, 255, 255));
+
+border:1px solid rgb(253, 254, 254);
+
+border-radius:5px;
+}
+QPushButton:hover{
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(63, 63, 63, 255), stop:1 rgba(33, 33, 33, 255));
+ background-color: qlineargradient(spread:pad, x1:0.505636, y1:0.221, x2:0.431818, y2:1, stop:0 rgba(89, 255, 255, 255), stop:1 rgba(60, 138, 255, 255));
+
+}
+
+QPushButton:pressed{
+background-color: qlineargradient(spread:pad, x1:0.767, y1:1, x2:1, y2:0, stop:0 rgba(0, 244, 255, 255), stop:1 rgba(3, 115, 255, 255));\n&quot;
+
+}</string>
+          </property>
+          <property name="text">
+           <string>Set as  Recommendated</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
          <widget class="QPushButton" name="Reset_pushButton">
           <property name="minimumSize">
            <size>
             <width>0</width>
             <height>29</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>430</width>
+            <height>16777215</height>
            </size>
           </property>
           <property name="styleSheet">
@@ -1313,36 +1412,7 @@ background-color: qlineargradient(spread:pad, x1:0.767, y1:1, x2:1, y2:0, stop:0
           </property>
          </widget>
         </item>
-        <item row="4" column="1">
-         <widget class="QPushButton" name="Developer_recomendation_Button">
-          <property name="styleSheet">
-           <string notr="true">QPushButton{
- padding-top:2px;
-	font: 12pt &quot;MS Shell Dlg 2l&quot;;
- color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(33, 33, 33, 255), stop:1 rgba(75, 75, 75, 255));
-background-color:qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(0, 244, 255, 255), stop:1 rgba(3, 115, 255, 255));
-
-border:1px solid rgb(253, 254, 254);
-
-border-radius:5px;
-}
-QPushButton:hover{
-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(63, 63, 63, 255), stop:1 rgba(33, 33, 33, 255));
- background-color: qlineargradient(spread:pad, x1:0.505636, y1:0.221, x2:0.431818, y2:1, stop:0 rgba(89, 255, 255, 255), stop:1 rgba(60, 138, 255, 255));
-
-}
-
-QPushButton:pressed{
-background-color: qlineargradient(spread:pad, x1:0.767, y1:1, x2:1, y2:0, stop:0 rgba(0, 244, 255, 255), stop:1 rgba(3, 115, 255, 255));\n&quot;
-
-}</string>
-          </property>
-          <property name="text">
-           <string>Set as  Recommendated</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
+        <item row="2" column="0">
          <widget class="QScrollArea" name="scrollArea_2">
           <property name="widgetResizable">
            <bool>true</bool>
@@ -1351,8 +1421,8 @@ background-color: qlineargradient(spread:pad, x1:0.767, y1:1, x2:1, y2:0, stop:0
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-254</y>
-             <width>361</width>
+             <y>0</y>
+             <width>413</width>
              <height>642</height>
             </rect>
            </property>
@@ -1376,8 +1446,14 @@ background-color: qlineargradient(spread:pad, x1:0.767, y1:1, x2:1, y2:0, stop:0
              <widget class="QGroupBox" name="groupBox">
               <property name="minimumSize">
                <size>
-                <width>361</width>
+                <width>360</width>
                 <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>430</width>
+                <height>16777215</height>
                </size>
               </property>
               <property name="styleSheet">
@@ -1665,7 +1741,7 @@ color: rgba(0, 0, 0, 210);</string>
                   </size>
                  </property>
                  <property name="styleSheet">
-                  <string notr="true">border-color: 1px solid rgb(0, 0, 127);</string>
+                  <string notr="true"/>
                  </property>
                  <property name="text">
                   <string>Audio Input Devices:</string>
@@ -1909,33 +1985,7 @@ color: rgba(0, 0, 0, 210);</string>
           </widget>
          </widget>
         </item>
-        <item row="2" column="0">
-         <spacer name="horizontalSpacer_5">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item row="2" column="2">
-         <spacer name="horizontalSpacer_6">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item row="1" column="1">
+        <item row="1" column="0">
          <widget class="Line" name="line_32">
           <property name="maximumSize">
            <size>
@@ -1983,7 +2033,7 @@ color: rgba(0, 0, 0, 210);</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>514</width>
+             <width>431</width>
              <height>974</height>
             </rect>
            </property>
@@ -1991,7 +2041,7 @@ color: rgba(0, 0, 0, 210);</string>
             <property name="spacing">
              <number>0</number>
             </property>
-            <item row="1" column="1">
+            <item row="1" column="0">
              <widget class="Line" name="line_38">
               <property name="styleSheet">
                <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -2002,20 +2052,19 @@ color: rgba(0, 0, 0, 210);</string>
              </widget>
             </item>
             <item row="0" column="0">
-             <spacer name="horizontalSpacer_3">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
+             <widget class="QFrame" name="frame_2">
+              <property name="minimumSize">
                <size>
-                <width>40</width>
-                <height>20</height>
+                <width>363</width>
+                <height>0</height>
                </size>
               </property>
-             </spacer>
-            </item>
-            <item row="0" column="1">
-             <widget class="QFrame" name="frame_2">
+              <property name="maximumSize">
+               <size>
+                <width>430</width>
+                <height>16777215</height>
+               </size>
+              </property>
               <property name="styleSheet">
                <string notr="true">QGroupBox {
         background-color: #f0f0f0;
@@ -2895,18 +2944,1085 @@ border-top: 1px solid gray;</string>
               </layout>
              </widget>
             </item>
-            <item row="0" column="2">
-             <spacer name="horizontalSpacer_4">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Shortcuts</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_10">
+        <item row="0" column="0">
+         <widget class="QScrollArea" name="scrollArea_3">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_3">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>413</width>
+             <height>1461</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QFrame" name="frame_7">
+              <property name="minimumSize">
                <size>
-                <width>40</width>
-                <height>20</height>
+                <width>400</width>
+                <height>0</height>
                </size>
               </property>
-             </spacer>
+              <property name="maximumSize">
+               <size>
+                <width>430</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QFrame{
+background-color: rgb(255, 255, 255);
+border-left: 1px solid gray;
+border-right: 1px solid gray;
+border-bottom: 1px solid gray;
+border-radius: 10px;
+}
+QLabel{
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+border: 1px solid white;
+background: transparent;
+}</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_11">
+               <item row="12" column="0" colspan="3">
+                <widget class="QFrame" name="frame_10">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_16">
+                  <item row="0" column="3">
+                   <widget class="QLineEdit" name="lineEdit_14"/>
+                  </item>
+                  <item row="0" column="4">
+                   <widget class="QPushButton" name="setShortFunc3">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1" colspan="3">
+                   <widget class="QLineEdit" name="lineEdit_15">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="4">
+                   <widget class="QPushButton" name="setSript3">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf3">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_56">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 3:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="10" column="0" colspan="3">
+                <widget class="QFrame" name="frame_8">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_14">
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="setShortFunc1">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_8">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QPushButton" name="setSript1">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QLineEdit" name="lineEdit_7"/>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf1">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_52">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 1:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="11" column="0" colspan="3">
+                <widget class="QFrame" name="frame_9">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_15">
+                  <item row="0" column="2">
+                   <widget class="QLineEdit" name="lineEdit_10"/>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="setShortFunc2">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_13">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QPushButton" name="setSript2">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf2">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_53">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 2:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="14" column="0" colspan="3">
+                <widget class="QFrame" name="frame_11">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_17">
+                  <item row="0" column="4">
+                   <widget class="QPushButton" name="setShortFunc4">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QLineEdit" name="lineEdit_16"/>
+                  </item>
+                  <item row="1" column="1" colspan="3">
+                   <widget class="QLineEdit" name="lineEdit_17">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="4">
+                   <widget class="QPushButton" name="setSript4">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf4">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_58">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 4:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="18" column="0" colspan="3">
+                <widget class="QFrame" name="frame_15">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_22">
+                  <item row="0" column="2">
+                   <widget class="QLineEdit" name="lineEdit_26"/>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="setShortFunc8">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QPushButton" name="setSript8">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_27">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf8">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_63">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 8:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="15" column="0" colspan="3">
+                <widget class="QFrame" name="frame_12">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_19">
+                  <item row="0" column="3">
+                   <widget class="QLineEdit" name="lineEdit_20"/>
+                  </item>
+                  <item row="1" column="1" colspan="3">
+                   <widget class="QLineEdit" name="lineEdit_21">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="4">
+                   <widget class="QPushButton" name="setSript5">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="4">
+                   <widget class="QPushButton" name="setShortFunc5">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf5">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_60">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 5:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="17" column="0" colspan="3">
+                <widget class="QFrame" name="frame_14">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_21">
+                  <item row="0" column="2">
+                   <widget class="QLineEdit" name="lineEdit_24"/>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="setShortFunc7">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_25">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QPushButton" name="setSript7">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf7">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_62">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 7:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="16" column="0" colspan="3">
+                <widget class="QFrame" name="frame_13">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_20">
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="setShortFunc6">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QLineEdit" name="lineEdit_22"/>
+                  </item>
+                  <item row="1" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_23">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QPushButton" name="setSript6">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf6">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_61">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 6:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_55">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Set layout to Banglish:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="1">
+                <widget class="QLineEdit" name="lineEdit_6">
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="2">
+                <widget class="QPushButton" name="unicodeShortPush">
+                 <property name="text">
+                  <string>Set shortcut</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QPushButton" name="setTypingModeShortPush">
+                 <property name="text">
+                  <string>Set shortcut</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="0">
+                <widget class="QLabel" name="label_57">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>keep window on top:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="2">
+                <widget class="QPushButton" name="keepWindowOnTopShortPush">
+                 <property name="text">
+                  <string>Set shortcut</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QLineEdit" name="lineEdit_5">
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="1">
+                <widget class="QLineEdit" name="lineEdit_11">
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="2">
+                <widget class="QPushButton" name="setPreviousClipShortPush">
+                 <property name="text">
+                  <string>Set shortcut</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="lineEdit_2">
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QLineEdit" name="lineEdit_4">
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QLabel" name="label_54">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Previous Clipboard:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_48">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Speech to text:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0">
+                <widget class="QLabel" name="label_51">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Output as ANSI v2:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_47">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Typing mode:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="1">
+                <widget class="QLineEdit" name="lineEdit_9">
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLineEdit" name="lineEdit_3">
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QPushButton" name="setShortSwitch">
+                 <property name="minimumSize">
+                  <size>
+                   <width>110</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Set shortcut</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QLabel" name="label_50">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Output as ANSI v1:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="2">
+                <widget class="QPushButton" name="shortForBanglishPushButton">
+                 <property name="text">
+                  <string>Set shortcut</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="lineEdit">
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="lineEdit_12">
+                 <property name="readOnly">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_39">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Switch language:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label_49">
+                 <property name="minimumSize">
+                  <size>
+                   <width>150</width>
+                   <height>28</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Output as Unicode:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="2">
+                <widget class="QPushButton" name="ansi1shortpush">
+                 <property name="text">
+                  <string>Set shortcut</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="13" column="0">
+                <spacer name="verticalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="2" column="2">
+                <widget class="QPushButton" name="setSpeechToTextShort">
+                 <property name="text">
+                  <string>Set shortcut</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="2">
+                <widget class="QPushButton" name="ansi2shortpush">
+                 <property name="text">
+                  <string>Set shortcut</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="0" colspan="3">
+                <widget class="Line" name="line_17">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="20" column="0" colspan="3">
+                <widget class="QFrame" name="frame_16">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_23">
+                  <item row="0" column="2">
+                   <widget class="QLineEdit" name="lineEdit_28"/>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="setShortFunc10">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_29">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QPushButton" name="setSript10">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf10">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_64">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 10:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="19" column="0" colspan="3">
+                <widget class="QFrame" name="frame_17">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_24">
+                  <item row="0" column="2">
+                   <widget class="QLineEdit" name="lineEdit_30"/>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QPushButton" name="setSript9">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_31">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="setShortFunc9">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf9">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_65">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Function 9:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="21" column="0" colspan="3">
+                <widget class="QFrame" name="frame_18">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_25">
+                  <item row="0" column="2">
+                   <widget class="QLineEdit" name="lineEdit_32"/>
+                  </item>
+                  <item row="1" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_33">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QPushButton" name="setSript11">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="setShortFunc11">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf11">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_66">
+                    <property name="text">
+                     <string>Function 11:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="22" column="0" colspan="3">
+                <widget class="QFrame" name="frame_19">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>85</height>
+                  </size>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_26">
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="setShortFunc12">
+                    <property name="text">
+                     <string>Set shortcut</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QLineEdit" name="lineEdit_34"/>
+                  </item>
+                  <item row="1" column="1" colspan="2">
+                   <widget class="QLineEdit" name="lineEdit_35">
+                    <property name="readOnly">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QPushButton" name="setSript12">
+                    <property name="text">
+                     <string>Set Script</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="xf12">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="label_67">
+                    <property name="text">
+                     <string>Function 12:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
             </item>
            </layout>
           </widget>

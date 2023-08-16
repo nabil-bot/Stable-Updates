@@ -1,6 +1,7 @@
 {
     "version": 2.0,
-    "Changelog": "Corrected the error pertaining to saving abbreviations.\nImplemented the changelog feature.\nMouse wheel behavior adjusted: Values will not change on scrolling.",
+    "Changelog": "1.New Features:\n   •Added custom shortcut capability for easier navigation.\n   •Export and Import functions to Word Manager and Settings.\n   •Enabled automatic data saving upon exiting for smoother usage.\n   •Added hotstring feature within the abbreviation tab to trigger Python scripts.\n   •Initiate typing by pressing Alt.\n\n2.Optimizations:\n   •Removed ads to enhance user experience.\n   •Restored 'Bring on Top' option in word context menu for autocomplete.\n   •Faster application startup.\n   •Eliminated GIF tab from the On-Screen Keyboard due to its limited usage.\n\n3.Bug Fixes:\n   •Addressed various minor issues for better stability.",
     "size": "20mb",
-    "reinstall": false
+    "reinstall": false,
+    "minVersion": 2.0
 }

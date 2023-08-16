@@ -516,7 +516,7 @@ QProgressBar::chunk {
         <string>Clipboard</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_11">
-        <item row="1" column="0">
+        <item row="0" column="0">
          <widget class="QTableWidget" name="ClipBoardtableWidget">
           <column>
            <property name="text">
@@ -528,13 +528,6 @@ QProgressBar::chunk {
             <string>Content</string>
            </property>
           </column>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="QLabel" name="label">
-          <property name="text">
-           <string>Press Alt + v to paste the previous clipboard</string>
-          </property>
          </widget>
         </item>
        </layout>
@@ -556,10 +549,12 @@ QProgressBar::chunk {
     <property name="title">
      <string>File</string>
     </property>
-    <addaction name="actionOpen"/>
     <addaction name="actionSave"/>
-    <addaction name="actionSave_as"/>
-    <addaction name="actionMerge_Dictionary"/>
+    <addaction name="actionReload_2"/>
+    <addaction name="actionExport"/>
+    <addaction name="actionImport_"/>
+    <addaction name="actionSave_Dictionary_folder"/>
+    <addaction name="actionImport_Dictionary_folder"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
@@ -571,7 +566,6 @@ QProgressBar::chunk {
     <addaction name="actionRemove"/>
     <addaction name="actionShowTextEditor"/>
     <addaction name="actionClear_Undo_List"/>
-    <addaction name="actionTestBanglishAlgo"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -1157,6 +1151,36 @@ QScrollBar::sub-line:vertical {
   <action name="actionMerge_Dictionary">
    <property name="text">
     <string>Merge Dictionary</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actionImport_">
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="actionMerge">
+   <property name="text">
+    <string>Merge</string>
+   </property>
+  </action>
+  <action name="actionReload_2">
+   <property name="text">
+    <string>Reload</string>
+   </property>
+  </action>
+  <action name="actionSave_Dictionary_folder">
+   <property name="text">
+    <string>Save Dictionary folder</string>
+   </property>
+  </action>
+  <action name="actionImport_Dictionary_folder">
+   <property name="text">
+    <string>Import Dictionary folder</string>
    </property>
   </action>
  </widget>
