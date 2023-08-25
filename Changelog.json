@@ -1,5 +1,5 @@
 {
-    "version": 2.0,
+    "version": 2.1,
     "Changelog": "1.Optimizations:\n   •Eliminated superfluous imports to achieve faster loading times.\n\n2.Bug Fixes:\n   •Addressed various minor issues for better stability.\n    •Resolved issue with emoji typing in the On-Screen Keyboard (OSK).",
     "size": "13mb",
     "reinstall": false,
