@@ -2032,7 +2032,7 @@ color: rgba(0, 0, 0, 210);</string>
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
+             <y>-400</y>
              <width>431</width>
              <height>974</height>
             </rect>
@@ -2964,7 +2964,7 @@ border-top: 1px solid gray;</string>
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
+             <y>-872</y>
              <width>413</width>
              <height>1461</height>
             </rect>
@@ -3050,6 +3050,9 @@ background: transparent;
                     <property name="readOnly">
                      <bool>true</bool>
                     </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
+                    </property>
                    </widget>
                   </item>
                   <item row="1" column="4">
@@ -3108,6 +3111,9 @@ background: transparent;
                    <widget class="QLineEdit" name="lineEdit_8">
                     <property name="readOnly">
                      <bool>true</bool>
+                    </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
                     </property>
                    </widget>
                   </item>
@@ -3174,6 +3180,9 @@ background: transparent;
                     <property name="readOnly">
                      <bool>true</bool>
                     </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
+                    </property>
                    </widget>
                   </item>
                   <item row="1" column="3">
@@ -3235,6 +3244,9 @@ background: transparent;
                    <widget class="QLineEdit" name="lineEdit_17">
                     <property name="readOnly">
                      <bool>true</bool>
+                    </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
                     </property>
                    </widget>
                   </item>
@@ -3305,6 +3317,9 @@ background: transparent;
                     <property name="readOnly">
                      <bool>true</bool>
                     </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
+                    </property>
                    </widget>
                   </item>
                   <item row="1" column="0">
@@ -3352,6 +3367,9 @@ background: transparent;
                    <widget class="QLineEdit" name="lineEdit_21">
                     <property name="readOnly">
                      <bool>true</bool>
+                    </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
                     </property>
                    </widget>
                   </item>
@@ -3422,6 +3440,9 @@ background: transparent;
                     <property name="readOnly">
                      <bool>true</bool>
                     </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
+                    </property>
                    </widget>
                   </item>
                   <item row="1" column="3">
@@ -3483,6 +3504,9 @@ background: transparent;
                    <widget class="QLineEdit" name="lineEdit_23">
                     <property name="readOnly">
                      <bool>true</bool>
+                    </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
                     </property>
                    </widget>
                   </item>
@@ -3815,6 +3839,9 @@ background: transparent;
                     <property name="readOnly">
                      <bool>true</bool>
                     </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
+                    </property>
                    </widget>
                   </item>
                   <item row="1" column="3">
@@ -3877,6 +3904,9 @@ background: transparent;
                     <property name="readOnly">
                      <bool>true</bool>
                     </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
+                    </property>
                    </widget>
                   </item>
                   <item row="0" column="3">
@@ -3931,6 +3961,9 @@ background: transparent;
                    <widget class="QLineEdit" name="lineEdit_33">
                     <property name="readOnly">
                      <bool>true</bool>
+                    </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
                     </property>
                    </widget>
                   </item>
@@ -3994,6 +4027,9 @@ background: transparent;
                    <widget class="QLineEdit" name="lineEdit_35">
                     <property name="readOnly">
                      <bool>true</bool>
+                    </property>
+                    <property name="placeholderText">
+                     <string>set Python script path</string>
                     </property>
                    </widget>
                   </item>
