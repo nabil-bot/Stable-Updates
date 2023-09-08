@@ -3,5 +3,5 @@
     "Changelog": "1.Bangla Layout Enhancements:\n   •Added Bangla numerals to the numpad keys, enabling users to type Bangla\n    numbers efficiently.\n    •Resolved bugs associated with the numpad keys '2' and '8' for improved\n    usability.\n    \n2.Application Update Improvements:\n   •Attempted to address the permission error encountered when running\n     'UpdateInstaller.exe' during the application update process.\n\n3.Optimized Startup Performance:\n    •Implemented an optimization: if the user doesn't use the English\n    word prediction feature, Kontho will not load the English dictionary,\n    resulting in faster startup times.\n\n4.DocPad Enhancements:\n    •Enhanced DocPad functionality by prompting users to save unsaved text\n    before closing, ensuring data preservation and preventing accidental data loss.",
     "size": "13mb",
     "reinstall": false,
-    "minVersion": 2.2
+    "minVersion": 2.0
 }
