@@ -1,7 +1,7 @@
 {
-    "version": 2.0,
-    "Changelog": "1. Word context menu is now available in the free version and it's more dynamic.\n2. Incorporated digital signature to the Kontho.exe file.\n3. Now you can type word like রাহ্‌মান by Nirala Layout (pressing 'g' twice)\n4. Fixed Doc Pad's 'New' trigger Bug.\n5. Implemented various minor changes.",
-    "size": "15.8 MB",
+    "version": 2.38,
+    "Changelog": "1. Word context menu is now available in the free version and it's more dynamic.\n2. Incorporated digital signature to the Kontho.exe file.\n3. Now you can type word like রাহ্‌মান by Nirala Layout (pressing 'g' twice)\n4. Fixed Doc Pad's 'New' trigger Bug.\n5. The next word prediction feature is now accessible for Bangla output in ANSI format.\n6. Implemented various minor changes.",
+    "size": "15 MB",
     "reinstall": false,
-    "minVersion": 1.0
+    "minVersion": 2.3
 }
