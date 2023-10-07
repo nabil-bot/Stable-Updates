@@ -3,6 +3,6 @@
     "Changelog": "1. Added Bangla NumPad disable option.\n2. Abbreviation keys can now be triggered while typing in Bangla.\n3. Concealed the 'caret position' icon menu options.\n4. The border color for word suggestion is more meaningful.\n5. It's now easier to resize the Doc Pad.\n6. Implemented several minor enhancements.",
     "size": "17.2 MB",
     "reinstall": false,
-    "minVersion": 2.1,
+    "minVersion": 2.4,
     "releaseDate": "07-10-2023"
 }
