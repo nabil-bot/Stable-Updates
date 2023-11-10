@@ -1,8 +1,9 @@
 {
-    "version": 2.4,
-    "Changelog": "\n\ud83d\udce2Note: Pro users,\nAfter updating, please save your ID for future offline Nms Kontho activation.\nThe 'Export ID' button can be found in the Activation window under 'About Nms Kontho.'\n\n\u26a1Updates:\n1. Added offline activation feature.\n2. Improved visibility by adding icons to specific Osk buttons.\n3. Resolved software crashing issue upon closing.\n4. The border color for word suggestion is more meaningful.\n5. It's now easier to resize the Doc Pad.\n6. Implemented several minor enhancements. \n7. Added Nirala Nirala Layout Guide\n8. Resolved Banglish Layout-related bugs.",
-    "size": "17.4 MB",
+    "version": 2.5,
+    "Changelog": "Updates:\n1. Made some corrections to the Banglish layout and bangla date\n2. The 'Bring on top' feature on the context menu of some words was misleading, and it will no longer be available for those words.\n3. Efforts have been made to address the freezing issue upon closing the application.\n4. Added the 'Disable High DPI Scaling' option to prevent font scaling on higher-resolution displays.\n5. Added 'Mandatory' and 'Optional' update features.",
+    "size": "12 MB",
     "reinstall": false,
-    "minVersion": 2.4,
-    "releaseDate": "13-10-2023"
+    "minVersion": 2.5,
+    "releaseDate": "10-11-2023",
+    "mandatory": true
 }
