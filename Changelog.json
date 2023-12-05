@@ -1,9 +1,9 @@
 {
-    "version": 2.5,
-    "Changelog": "Updates:\n1. Made some corrections to the Banglish layout and bangla date\n2. The 'Bring on top' feature on the context menu of some words was misleading, and it will no longer be available for those words.\n3. Efforts have been made to address the freezing issue upon closing the application.\n4. Added the 'Disable High DPI Scaling' option to prevent font scaling on higher-resolution displays.\n5. Added 'Mandatory' and 'Optional' update features.",
+    "version": 3.0,
+    "Changelog": "Updates:\n1. Made some corrections to the Banglish and Nirala layout and bangla date\n2. Included 'Typing Mode' Pause Option in the Top Bar.\n3. Efforts have been made to address the freezing issue upon closing the application.\n4. Added 'Google Input API and Cloud Mode.\n5. Remove phonetics of bangla words for Nirala layout users.\n6. Auto-completion will now function even when the typing mode is turned off.\n7. You can now add numbers to the custom word list.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 2.5,
-    "releaseDate": "10-11-2023",
+    "minVersion": 3.0,
+    "releaseDate": "04-12-2023",
     "mandatory": true
 }
