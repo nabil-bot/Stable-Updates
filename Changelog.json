@@ -3,7 +3,7 @@
     "Changelog": "Updates:\n1. Resolved the bug in next-word prediction.\n2. Improved memory efficiency by 18%.\n3. Now, saving words for offline use is 5 times faster.\n4. Optimized the Banglish layout slightly.\n5. Resolved microphone selection error..\n6. Kontho will now remember your last selected Bangla encoding.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 2.5,
+    "minVersion": 3.31,
     "releaseDate": "17-12-2023",
     "mandatory": false
 }
