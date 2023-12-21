@@ -5,5 +5,5 @@
     "reinstall": false,
     "minVersion": 3.31,
     "releaseDate": "17-12-2023",
-    "mandatory": true
+    "mandatory": false 
 }
