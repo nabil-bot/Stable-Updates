@@ -5,5 +5,5 @@
     "reinstall": false,
     "minVersion": 4.1,
     "releaseDate": "29-12-2023",
-    "mandatory": false
+    "mandatory": true
 }
