@@ -3,7 +3,7 @@
     "Changelog": "Updates:\n1. 25% more memory-efficient than the previous version.\n2. Loads twice as fast.\n3. More user-friendly.\n4. Now, Kontho can remember the previously selected word for Bangla phonetics.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.0,
+    "minVersion": 4.1,
     "releaseDate": "29-12-2023",
     "mandatory": false
 }
