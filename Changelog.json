@@ -1,9 +1,9 @@
 {
-    "version": 4.1,
-    "Changelog": "Updates:\n1. 25% more memory-efficient than the previous version.\n2. Loads twice as fast.\n3. More user-friendly.\n4. Now, Kontho can remember the previously selected word for Bangla phonetics.",
+    "version": 4.41,
+    "Changelog": "Updates:\n1. \ud83e\udd29\ud83c\udf89All premium features are accessible for free use until February 1, 2024\u2728\n2. 6.3157% more memory-efficient than the previous version.\n3. Free users can now disable the notification for the deactivated state on startup.\n4. Attempted to resolve the hanging issue during speech-to-text functionality.\n5. Launches slightly faster.\n6. The application package is now more compressed, reducing its size.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.1,
-    "releaseDate": "29-12-2023",
-    "mandatory": true
+    "minVersion": 4.41,
+    "releaseDate": "08-01-2024",
+    "mandatory": false
 }
