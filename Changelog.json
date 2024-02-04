@@ -1,9 +1,9 @@
 {
-    "version": 4.53,
-    "Changelog": "Updates:\n1. Loads faster.\n2. 7.34% more memory-efficient.\n3. Implemented corrections in the Banglish layout.\n4. Included Speech Mapping Feature.\n5. App size reduced by 26.47% from the previous version.\n6. Attempted to fix hanging issue during language switching.\n7. Auto completion is now case-insensitive.",
+    "version": 4.54,
+    "Changelog": "IMPORTANT\u2757Updates:\n1. Operates slightly faster (0.4 milliseconds).\n2. Implemented crucial corrections to Banglish and Nirala layouts.\n\ud83d\udca0 Top pad position and size are now customizable in the free version as well.\n4. Several additional improvements made.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.53,
-    "releaseDate": "31-01-2024",
-    "mandatory": true
+    "minVersion": 4.54,
+    "releaseDate": "04-02-2024",
+    "mandatory": false
 }
