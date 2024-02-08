@@ -1,9 +1,9 @@
 {
-    "version": 4.54,
-    "Changelog": "IMPORTANT\u2757Updates:\n1. Operates slightly faster (0.4 milliseconds).\n2. Implemented crucial corrections to Banglish and Nirala layouts.\n\ud83d\udca0 Top pad position and size are now customizable in the free version as well.\n4. Several additional improvements made.",
+    "version": 4.55,
+    "Changelog": "Several bugs fixed from the previous version.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.54,
-    "releaseDate": "04-02-2024",
-    "mandatory": false
+    "minVersion": 4.55,
+    "releaseDate": "08-02-2024",
+    "mandatory": true
 }
