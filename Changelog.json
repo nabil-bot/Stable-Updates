@@ -1,9 +1,9 @@
 {
-    "version": 4.62,
+    "version": 4.55,
     "Changelog": "1.New layout Nirala Uni (BETA)\n2.Couple of big improvements.\n3.Added Key Remap Feature for English.\n4.Reduced Application Size.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.62,
+    "minVersion": 4.55,
     "releaseDate": "07-03-2024",
     "mandatory": false,
     "outDatedVersion": 4.59
