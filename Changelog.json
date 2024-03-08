@@ -5,6 +5,6 @@
     "reinstall": false,
     "minVersion": 4.63,
     "releaseDate": "07-03-2024",
-    "mandatory": false,
+    "mandatory": true,
     "outDatedVersion": 4.6
 }
