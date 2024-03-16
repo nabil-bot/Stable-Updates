@@ -1,10 +1,10 @@
 {
-    "version": 4.65,
-    "Changelog": "\n1.Couple of improvements.",
+    "version": 4.66,
+    "Changelog": "\n1.From this version, updating from the MS app store will preserve user data.\n2. Tried to fix some small bugs.\n3. Faster speech recognition.\n4. Added vertical top bar option for the pro version.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.65,
-    "releaseDate": "13-03-2024",
+    "minVersion": 4.66,
+    "releaseDate": "16-03-2024",
     "mandatory": false,
     "outDatedVersion": 4.6
 }
