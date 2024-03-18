@@ -7,5 +7,5 @@
     "releaseDate": "17-03-2024",
     "mandatory": false,
     "outDatedVersion": 4.6,
-    "activate":false
+    "activate": true
 }
