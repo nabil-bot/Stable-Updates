@@ -1,10 +1,10 @@
 {
-    "version": 4.671,
+    "version": 4.672,
     "Changelog": "\u2728\ud83c\udf89In this version pro features are free until April 1, 2024 (for BETA testing).\ud83c\udf88\ud83d\udc99\n\n1.From this version, updating from the MS app store will preserve user data.\n2. Tried to fix some small bugs.\n3. Faster speech recognition.\n4. Added vertical top bar option for the pro version. \n5. Removed redundant imports.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.671,
+    "minVersion": 4.672,
     "releaseDate": "19-03-2024",
-    "mandatory": true,
+    "mandatory": false,
     "outDatedVersion": 4.6
 }
