@@ -1,9 +1,9 @@
 {
-    "version": 4.75,
-    "Changelog": "**Fixed a bug related to voice typing with spaces.**\n\n1. Added sentence modifier feature powered by Gemini AI (Ctrl + Right click).\n2. Voice typing bug has been fixed.\n3.  Kontho topbar stylesheet is now fully customizable.\n4. Improved memory management.",
+    "version": 4.76,
+    "Changelog": "Fixed a couple of bugs, including:\n* the issue of not putting space after each line while voice typing.\n*as well as the Nirala Uni and Banglish layout bugs.\n\nUpdates:\n1. Added sentence modifier feature powered by Gemini AI (Ctrl + Right click).\n2. Voice typing bug has been fixed.\n3.  Kontho topbar stylesheet is now fully customizable.\n4. Improved memory management.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.75,
+    "minVersion": 4.76,
     "releaseDate": "06-04-2024",
     "mandatory": false,
     "outDatedVersion": 4.6
