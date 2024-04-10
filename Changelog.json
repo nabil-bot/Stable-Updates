@@ -1,10 +1,10 @@
 {
-    "version": 4.8,
-    "Changelog": "Fixed a couple of bugs, including:\n* the issue of not putting space after each line while voice typing.\n*as well as the Nirala Uni and Banglish layout bugs.\n\n📢Please note: Updating to this version will also update the settings,\nwhich means it will not retain the settings from earlier versions.\nand you can not import settings, saved from the earlier versiions.\n\nUpdates:\n1. Added sentence modifier feature powered by Gemini AI (Ctrl + Right click).\n2. Voice typing bug has been fixed.\n3.  Kontho topbar stylesheet is now fully customizable.\n4. Improved memory management.\n5. Improved loading speed.",
+    "version": 4.82,
+    "Changelog": "BETA\nFixed a couple of bugs, including:\n*ANSI converter not opening.\n*English word update/edit bug.\n* the issue of not putting space after each line while voice typing.\n*as well as the Nirala Uni and Banglish layout bugs.\n\n\ud83d\udce2Please note: Updating to this version will update the settings from any earlier version of 4.8,\nwhich means it will not retain the settings from any versions under 4.8\nand you can not import settings.\n\nUpdates:\n1. Added sentence modifier feature powered by Gemini AI (Ctrl + Right click).\n2. Voice typing bug has been fixed.\n3.  Kontho topbar stylesheet is now fully customizable.\n4. Improved memory management.\n5. Improved loading speed.\n6. Topbar icon size is now customizable",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.8,
-    "releaseDate": "07-04-2024",
-    "mandatory": true,
+    "minVersion": 4.82,
+    "releaseDate": "10-04-2024",
+    "mandatory": false,
     "outDatedVersion": 4.6
 }
