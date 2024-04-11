@@ -1,9 +1,9 @@
 {
-    "version": 4.83,
+    "version": 4.84,
     "Changelog": "Fixed a couple of bugs, including:\n*ANSI converter not opening.\n*English word update/edit bug.\n* the issue of not putting space after each line while voice typing.\n*as well as the Nirala Uni and Banglish layout bugs.\n\n\ud83d\udce2Please note: Updating to this version will update the settings from any earlier version of 4.8,\nwhich means it will not retain the settings from any versions under 4.8\nand you can not import settings.\n\nUpdates:\n1. The system tray will have only one icon.\n2. Added sentence modifier feature powered by Gemini AI (Ctrl + Right click).\n3. Voice typing bug has been fixed.\n4.  Kontho topbar stylesheet is now fully customizable.\n5. Improved memory management.\n6. Improved loading speed.\n7. Topbar icon size is now customizable",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.83,
+    "minVersion": 4.84,
     "releaseDate": "11-04-2024",
     "mandatory": false,
     "outDatedVersion": 4.6
