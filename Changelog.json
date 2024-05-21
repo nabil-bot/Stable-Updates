@@ -1,11 +1,11 @@
 {
-    "version": 4.87,
+    "version": 4.9,
     "pakage": "Portable",
     "Changelog": "Updates for free version users.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.87,
-    "releaseDate": "09-05-2024",
+    "minVersion": 4.9,
+    "releaseDate": "19-05-2024",
     "mandatory": false,
-    "outDatedVersion": 4.6
+    "outDatedVersion": 4.7
 }
