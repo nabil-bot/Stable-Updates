@@ -1,11 +1,11 @@
 {
-    "version": 4.93,
+    "version": 4.97,
     "pakage": "Portable",
-    "Changelog": "1. Voice typing feature is now available for free users, with limited use.\n2. Fixed speech recognition synchronization.",
+    "Changelog": "1. ANSI bug fixed",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.93,
-    "releaseDate": "28-05-2024",
-    "mandatory": true,
+    "minVersion": 4.95,
+    "releaseDate": "10-07-2024",
+    "mandatory": false,
     "outDatedVersion": 4.7
 }
