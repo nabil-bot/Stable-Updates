@@ -1,5 +1,5 @@
 {
-    "version": 5.11,
+    "version": 5.0,
     "pakage": "Portable",
     "Changelog": "1. ANSI bug fixed. \n2. User can customize emoji properties.\n3. Enhanced Nirala Uni layout.\n4. Several bugs fixed.",
     "size": "12 MB",
