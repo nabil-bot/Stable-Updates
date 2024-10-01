@@ -1,11 +1,11 @@
 {
-    "version": 5.0,
+    "version": 6.122,
     "pakage": "Portable",
-    "Changelog": "1. ANSI bug fixed. \n2. User can customize emoji properties.\n3. Enhanced Nirala Uni layout.\n4. Several bugs fixed.",
+    "Changelog": "With all the changes made, this is basically a new application. It's now much more stable and smarter.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 4.95,
-    "releaseDate": "17-07-2024",
+    "releaseDate": "30-09-2024",
     "mandatory": true,
-    "outDatedVersion": 4.8
+    "outDatedVersion": 4.99
 }
