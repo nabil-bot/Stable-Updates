@@ -1,11 +1,11 @@
 {
-    "version": 6.123,
+    "version": 6.124,
     "pakage": "Portable",
-    "Changelog": "With all the changes made, this is basically a new application. It's now much more stable and smarter.",
+    "Changelog": "Big update with many improvements and bug fixes. To use this version, uninstall the previous one and install the latest version.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 4.95,
     "releaseDate": "02-10-2024",
-    "mandatory": false,
+    "mandatory": true,
     "outDatedVersion": 4.99
 }
