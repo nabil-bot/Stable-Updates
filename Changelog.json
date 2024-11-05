@@ -1,11 +1,11 @@
 {
-    "version": 6.128,
+    "version": 6.134,
     "pakage": "Portable",
-    "Changelog": "1. 6 mejor bugs fixed. \n2. Added a couple of new features.",
+    "Changelog": "A couple of bugs fixed, including the double-typing issue with Bangla number pad 2 and 8.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.95,
-    "releaseDate": "08-10-2024",
-    "mandatory": true,
-    "outDatedVersion": 4.99
+    "minVersion": 6.0,
+    "releaseDate": "18-10-2024",
+    "mandatory": false,
+    "outDatedVersion": 5.0
 }
