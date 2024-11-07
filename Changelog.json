@@ -1,11 +1,11 @@
 {
-    "version": 6.134,
-    "pakage": "Portable",
-    "Changelog": "A couple of bugs fixed, including the double-typing issue with Bangla number pad 2 and 8.",
+    "version": 6.135,
+    "pakage": "MSIX",
+    "Changelog": "1. Fixed a few bugs and \n2. Added a timeout feature for Voice Typing.\n3. Updated Banglish Layout.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 6.0,
-    "releaseDate": "18-10-2024",
+    "releaseDate": "07-11-2024",
     "mandatory": false,
     "outDatedVersion": 5.0
 }
