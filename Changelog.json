@@ -1,11 +1,11 @@
 {
-    "version": 6.135,
-    "pakage": "MSIX",
-    "Changelog": "1. Fixed a few bugs and \n2. Added a timeout feature for Voice Typing.\n3. Updated Banglish Layout.",
+    "version": 6.136,
+    "pakage": "Portable",
+    "Changelog": "1. Fixed a few bugs.\n2. Added a timeout feature for Voice Typing.\n3. Updated Banglish Layout.\n4. Suggesion window hide while pin is checked.\ntest",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 6.0,
-    "releaseDate": "07-11-2024",
+    "minVersion": 5.0,
+    "releaseDate": "08-11-2024",
     "mandatory": false,
-    "outDatedVersion": 5.0
+    "outDatedVersion": 5.5
 }
