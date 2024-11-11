@@ -1,11 +1,11 @@
 {
-    "version": 6.136,
+    "version": 6.1370000000000005,
     "pakage": "Portable",
     "Changelog": "1. Fixed a few bugs.\n2. Added a timeout feature for Voice Typing.\n3. Updated Banglish Layout.\n4. Suggesion window hide while pin is checked.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
-    "releaseDate": "08-11-2024",
+    "releaseDate": "11-11-2024",
     "mandatory": false,
     "outDatedVersion": 5.5
 }
