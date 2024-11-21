@@ -1,11 +1,11 @@
 {
     "version": 6.139,
     "pakage": "Portable",
-    "Changelog": "1. Fixed a few bugs.\n2. Added a timeout feature for Voice Typing.\n3. Updated Banglish Layout.\n4. Suggesion window hide while pin is checked.\n5. OSK Shortcut.",
+    "Changelog": "1. Fixed a few bugs.\n2. Added a timeout feature for Voice Typing.\n3. Updated Banglish Layout.\n4. Suggesion window hide while pin is checked.\n5. OSK Shortcut.\n6. Shortcut key trigger bug fixed.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
     "releaseDate": "21-11-2024",
-    "mandatory": true,
+    "mandatory": false,
     "outDatedVersion": 5.5
 }
