@@ -1,11 +1,11 @@
 {
-    "version": 6.141,
+    "version": 6.142,
     "pakage": "Portable",
-    "Changelog": "** Important update **\n\n1. Fixed a few bugs.\n",
+    "Changelog": "** Important update **\n\n1. Fixed a few bugs.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
-    "releaseDate": "24-11-2024",
-    "mandatory": true,
+    "releaseDate": "23-12-2024",
+    "mandatory": false,
     "outDatedVersion": 5.5
 }
