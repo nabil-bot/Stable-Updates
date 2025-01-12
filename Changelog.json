@@ -1,11 +1,11 @@
 {
-    "version": 6.142,
+    "version": 6.143,
     "pakage": "Portable",
-    "Changelog": "** Important update **\n\n1. Fixed a few bugs.",
+    "Changelog": "1. Encoding and Ui Updates.\n2. Enhancements for Free Version Users.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 5.0,
-    "releaseDate": "23-12-2024",
-    "mandatory": false,
+    "minVersion": 2,
+    "releaseDate": "12-01-2025",
+    "mandatory": true,
     "outDatedVersion": 5.5
 }
