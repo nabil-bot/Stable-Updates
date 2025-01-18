@@ -4,7 +4,7 @@
     "Changelog": "1. Encoding and Ui Updates.\n2. Enhancements for Free Version Users.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 2,
+    "minVersion": 3,
     "releaseDate": "12-01-2025",
     "mandatory": true,
     "outDatedVersion": 5.5
