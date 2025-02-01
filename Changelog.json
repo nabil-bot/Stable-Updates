@@ -1,7 +1,7 @@
 {
     "version": 6.143,
     "pakage": "Portable",
-    "Changelog": "1. Encoding and Ui Updates.\n2. Enhancements for Free Version Users.",
+    "Changelog": "Important Update:\n\n1. Kontho is now a no-console app.\n2. Updated Gemini AI model to the latest stable version.\n3. Added new enhancements and optimizations.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 2,
