@@ -4,7 +4,7 @@
     "Changelog": "Important Update:\n\n1. Kontho is now a no-console app.\n2. Updated Gemini AI model to the latest stable version.\n3. Added new enhancements and optimizations.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 2.03,
+    "minVersion": 2,
     "releaseDate": "12-01-2025",
     "mandatory": false,
     "outDatedVersion": 5.5
