@@ -1,7 +1,7 @@
 {
-    "version": 6.145,
+    "version": 6.146,
     "pakage": "Portable",
-    "Changelog": "**Important Update**\n\n1. Kontho is now a no-console app.\n2. Updated the Gemini AI model to the latest stable version.\n3. Added Language Preference Option for the Window, similar to Avro Keyboard.\n4. Added Audio-to-Text and Subtitle File (.srt) Generator.\n5. New enhancements and optimizations.",
+    "Changelog": "**Important Update**\n\nSeveral bug fixes, improvements to the phonetic layout, and enhancements for free users.\n\nKontho is now a no-console app.\nUpdated the Gemini AI model to the latest stable version.\nAdded a Language Preference Option for Windows, similar to Avro Keyboard.\nNew enhancements and optimizations.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 2,
