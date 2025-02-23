@@ -6,6 +6,6 @@
     "reinstall": false,
     "minVersion": 2,
     "releaseDate": "12-01-2025",
-    "mandatory": false,
+    "mandatory": true,
     "outDatedVersion": 5.5
 }
