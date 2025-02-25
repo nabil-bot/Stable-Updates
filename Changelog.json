@@ -4,7 +4,7 @@
     "Changelog": "**Important Update**\n\nSeveral bug fixes, improvements to the phonetic layout, and enhancements for free users.\n\nKontho is now a no-console app.\nUpdated the Gemini AI model to the latest stable version.\nAdded a Language Preference Option for Windows, similar to Avro Keyboard.\nNew enhancements and optimizations.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 2.03,
+    "minVersion": 2,
     "releaseDate": "12-01-2025",
     "mandatory": true,
     "outDatedVersion": 5.5
