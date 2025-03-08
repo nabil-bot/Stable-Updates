@@ -1,12 +1,11 @@
 {
-    "version": 6.15,
+    "version": 6.152,
     "pakage": "Portable",
-    "Changelog": "Major Update \ud83d\ude80\n\n\ud83d\udd39 Two critical bug fixes \ud83d\udee0\ufe0f\n\n1 Fixed word suggestion issue after pressing backspace.\n2\ufe0f Fixed trial version not unlocking all pro features.\n\ud83d\udd39 New update for Bijoy Layout \u2728\n3\ufe0f Added Bangla to Bijoy encoder.",
+    "Changelog": "\ud83d\udd27 2 Fine-Tunings & \ud83d\udc1e 2 Bug Fixes for a Smoother Experience! \ud83d\ude80",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 2,
-    "releaseDate": "12-01-2025",
-    "logVersion": 2,
-    "mandatory": true,
+    "minVersion": 5.0,
+    "releaseDate": "07-03-2025",
+    "mandatory": false,
     "outDatedVersion": 5.5
 }
