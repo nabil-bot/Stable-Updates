@@ -5,7 +5,7 @@
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
-    "logVersion": 2.03,
+    "logVersion": 2,
     "releaseDate": "07-03-2025",
     "mandatory": false,
     "outDatedVersion": 5.5
