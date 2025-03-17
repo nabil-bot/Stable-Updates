@@ -5,6 +5,7 @@
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
+    "logVersion": 2,
     "releaseDate": "Tuesday, March 18, 2025",
     "time": "00:01:13 GMT+6 (Dhaka)",
     "mandatory": false,
