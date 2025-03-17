@@ -1,12 +1,12 @@
 {
     "version": 6.152,
-    "pakage": "Portable",
-    "Changelog": "\ud83d\udd27 2 Fine-Tunings & \ud83d\udc1e 2 Bug Fixes for a Smoother Experience! \ud83d\ude80",
+    "pakage": "MSIX",
+    "Changelog": "\ud83d\udd27 2 Fine-Tunings & \ud83d\udc1e 2 Bug Fixes for a Smoother Experience! \ud83d\ude80\n\n\ud83d\udcc5 Users can now customize the date format to their preference!",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
-    "logVersion": 2,
-    "releaseDate": "07-03-2025",
+    "releaseDate": "Tuesday, March 18, 2025",
+    "time": "00:01:13 GMT+6 (Dhaka)",
     "mandatory": false,
     "outDatedVersion": 5.5
 }
