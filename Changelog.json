@@ -1,7 +1,7 @@
 {
     "version": 6.155,
     "pakage": "MSIX",
-    "Changelog": "\u2757Important Update\u2757\n\n\ud83d\udee0\ufe0f Fixed Bugs:\n\ud83d\udd39 Voice typing daily limit bug for free users \u2014 now significantly increased! \ud83d\udcc8\n\ud83d\udd39 'Remember Word Selection' bug.\n\ud83d\udd39 Distorted text in the word suggestion window.\n\ud83d\udd39 Trial use bug for free version users.\n\n\ud83d\ude80 Improvements:\n\ud83d\udd38 Enhanced Gemini AI features for improved accuracy.\n\ud83d\udd38 Better Google suggestions for smarter results.\n\n\ud83d\udcc5 New Features:\n\ud83d\udfe3 Customize the date format to suit your preference!\n\ud83d\udfe3 It can now suggest the current time as well! \u23f0\n\ud83d\udfe3 Drag and drop text directly onto Kontho's top bar for quick access and edit! \ud83d\udccb",
+   "Changelog": "\u2757Important Update\u2757\n\n\ud83d\udee0\ufe0f Fixed Bugs:\n\ud83d\udd39 \ud83c\udf99\ufe0f Voice typing daily limit bug for free users \u2014 now increased to 2000 characters per day! \u23f3\n\ud83d\udd39 'Remember Word Selection' bug.\n\ud83d\udd39 Distorted text in the word suggestion window.\n\ud83d\udd39 Trial use bug for free version users.\n\n\ud83d\ude80 Improvements:\n\ud83d\udd38 Enhanced Gemini AI features for improved accuracy.\n\ud83d\udd38 Better Google suggestions for smarter results.\n\n\ud83d\udcc5 New Features:\n\ud83d\udfe3 Customize the date format to suit your preference!\n\ud83d\udfe3 It can now suggest the current time as well! \u23f0\n\ud83d\udfe3 Drag and drop text directly onto Kontho's top bar for quick access and edit! \ud83d\udccb",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
