@@ -4,7 +4,7 @@
     "Changelog": "\u2757Important Update\u2757\n\n\ud83d\udee0\ufe0f Fixed Bugs:\n\ud83d\udd39 \ud83c\udf99\ufe0f Voice typing daily limit bug for free users \u2014 now increased to 1600 characters per day! \u23f3\n\ud83d\udd39 'Remember Word Selection' bug.\n\ud83d\udd39 Distorted text in the word suggestion window.\n\ud83d\udd39 Trial use bug for free version users.\n\n\ud83d\ude80 Improvements:\n\ud83d\udd38 Enhanced Gemini AI features for improved accuracy.\n\ud83d\udd38 Better Google suggestions for smarter results.\n\n\ud83d\udcc5 New Features:\n\ud83d\udfe3 Customize the date format to suit your preference!\n\ud83d\udfe3 It can now suggest the current time as well! \u23f0\n\ud83d\udfe3 Drag and drop text directly onto Kontho's top bar for quick access and edit! \ud83d\udccb",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.05,
+    "minVersion": 4.04,
     "logVersion": 2,
     "releaseDate": "Friday, March 21, 2025",
     "time": "05:15:21 GMT+6 (Dhaka)",
