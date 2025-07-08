@@ -1,7 +1,7 @@
 {
     "version": 7.0,
     "pakage": "MSIX",
-    "Changelog": "",
+    "Changelog": "Worked on the core features to make them seamless, fixed many bugs, and made several enhancements and optimizations.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 4.05,
