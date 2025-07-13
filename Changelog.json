@@ -1,12 +1,14 @@
 {
-    "version": 6.152,
+    "version": 7.003,
     "pakage": "Portable",
-    "Changelog": "\ud83d\udd27 2 Fine-Tunings & \ud83d\udc1e 2 Bug Fixes for a Smoother Experience! \ud83d\ude80",
+    "Changelog": "\u2757Important Update\u2757\n\nWorked on the core features to make them seamless, fixed many bugs, and made several enhancements and optimizations.\n\nReduced the dictionary size by 21.54% and added suffixes to minimize unnecessary memory usage.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
     "logVersion": 2,
-    "releaseDate": "07-03-2025",
+    "releaseDate": "Sunday, July 13, 2025",
+    "time": "20:43:21 GMT+6 (Dhaka)",
     "mandatory": false,
-    "outDatedVersion": 5.5
+    "outDatedVersion": 5.5,
+    "bit": "x64"
 }
