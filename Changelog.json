@@ -1,5 +1,5 @@
 {
-    "version": 7.009,
+    "version": 7.010,
     "pakage": "MSIX",
     "Changelog": "📢 Important Update:\nIf you're using any version below 7.0, please uninstall it first 🗑️, then install the latest version ⬇️.\n\n🚀 Optimized the algorithm for faster typing.",
     "size": "12 MB",
