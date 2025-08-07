@@ -1,14 +1,14 @@
 {
-    "version": 7.007,
+    "version": 7.01,
     "pakage": "Portable",
-    "Changelog": "\ud83d\udce2 Important Update:\nIf you're using any version below 7.0, please uninstall it first \ud83d\uddd1\ufe0f, then install the latest version \u2b07\ufe0f.\n\n\u2705 Worked on core features to make them seamless,\n\ud83d\udd27 Fixed many bugs,\n\ud83d\ude80 Added various enhancements and optimizations.",
+    "Changelog": "\ud83d\udce2 Important Update:\nIf you're using any version below 7.0, please uninstall it first \ud83d\uddd1\ufe0f, then install the latest version \u2b07\ufe0f.\n\n\ud83d\ude80 Optimized the algorithm for faster typing.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
     "logVersion": 2,
-    "releaseDate": "Saturday, July 19, 2025",
-    "time": "17:11:25 GMT+6 (Dhaka)",
+    "releaseDate": "Wednesday, August 06, 2025",
+    "time": "02:47:27 GMT+6 (Dhaka)",
     "mandatory": false,
-    "outDatedVersion": 5.5,
+    "outDatedVersion": 6.4,
     "bit": "x64"
 }
