@@ -1,14 +1,14 @@
 {
     "version": 7.01,
     "pakage": "Portable",
-    "Changelog": "\ud83d\udce2 Important Update:\nIf you're using any version below 7.0, please uninstall it first \ud83d\uddd1\ufe0f, then install the latest version \u2b07\ufe0f.\n\n\ud83d\ude80 Optimized the algorithm for faster typing.",
+    "Changelog": "\ud83d\udce2 Important Update:\nIf you're using any version below 7.0, please uninstall it first \ud83d\uddd1\ufe0f, then install the latest version \u2b07\ufe0f.\n\nAdded AI emoji search to OSK, along with context menus for the Mic and Language buttons. \n\n\ud83d\ude80 Optimized the algorithm for faster typing.",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 5.0,
     "logVersion": 2,
-    "releaseDate": "Thursday, August 07, 2025",
-    "time": "21:42:27 GMT+6 (Dhaka)",
-    "mandatory": false,
+    "releaseDate": "Friday, August 08, 2025",
+    "time": "01:14:58 GMT+6 (Dhaka)",
+    "mandatory": true,
     "outDatedVersion": 6.4,
     "bit": "x64"
 }
