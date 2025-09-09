@@ -1,5 +1,5 @@
 {
-    "version": 7.01,
+    "version": 7.018,
     "pakage": "Portable",
     "Changelog": "\ud83d\udce2 Important Update:\nIf you're using any version below 7.0, please uninstall it first \ud83d\uddd1\ufe0f, then install the latest version \u2b07\ufe0f.\n\nAdded AI emoji search to OSK, along with context menus for the Mic and Language buttons. \n\n\ud83d\ude80 Optimized the algorithm for faster typing.",
     "size": "12 MB",
