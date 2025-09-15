@@ -4,7 +4,7 @@
     "Changelog": "\ud83d\udce2 Important Update:\nIf you're using any version below 7.0, please uninstall it first \ud83d\uddd1\ufe0f, then install the latest version \u2b07\ufe0f.\n\nFixed a couple of bugs, including voice typing errors in the free version and snippets/abbreviations not triggering when typing mode is off.\nMade the Word Manager more responsive, added an occasional trial feature for free users, and implemented several improvements.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 5.09,
+    "minVersion": 4.05,
     "logVersion": 2,
     "releaseDate": "Monday, September 15, 2025",
     "time": "00:14:17 GMT+6 (Dhaka)",
