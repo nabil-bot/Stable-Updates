@@ -8,7 +8,7 @@
     "logVersion": 2,
     "releaseDate": "Monday, September 15, 2025",
     "time": "00:14:17 GMT+6 (Dhaka)",
-    "mandatory": "false",
+    "mandatory": "true",
     "outDatedVersion": 6.9,
     "bit": "x64"
 }
