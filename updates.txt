@@ -1,0 +1,7 @@
+[Update]
+Name = Nms Kontho
+ProductVersion = 6.1.48.0
+URL = https://github.com/YourUser/YourRepo/releases/download/v1.2.0/YourAppInstaller.exe
+Size = 54321000
+MD5 = 1234567890ABCDEF1234567890ABCDEF
+Description = New version with bug fixes and improvements.
