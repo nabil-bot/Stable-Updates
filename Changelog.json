@@ -2,7 +2,7 @@
     "version": 7.023,
     "pakage": "Portable",
     "Changelog": "\ud83d\udce2 Important Update:\nIf you're using any version below 7.0, please uninstall it first \ud83d\uddd1\ufe0f, then install the latest version \u2b07\ufe0f.\n\nFixed potential hang issues and refreshed the Gemini AI model list.",
-    "size": "12 MB",
+    "size": "35 MB",
     "reinstall": false,
     "minVersion": 3,
     "logVersion": 2,
