@@ -1,7 +1,7 @@
 [Update]
 Name = Nms Kontho
-ProductVersion = 6.1.48.0
+ProductVersion = 6.1.49.0
 URL = https://github.com/nabil-bot/Stable-Updates/raw/refs/heads/main/Nms%20Kontho%20Installer.exe
-Size = 54321000
+Size = 44496904 
 MD5 = 1234567890ABCDEF1234567890ABCDEF
 Description = New version with bug fixes and improvements.
