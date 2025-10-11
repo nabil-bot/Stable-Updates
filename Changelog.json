@@ -4,7 +4,7 @@
     "Changelog": "\ud83d\udce2 Important Update:\nIf you're using any version below 7.0, please uninstall it first \ud83d\uddd1\ufe0f, then install the latest version \u2b07\ufe0f.\n\nFixed potential hang issues and refreshed the Gemini AI model list.",
     "size": "35 MB",
     "reinstall": false,
-    "minVersion": 3,
+    "minVersion": 4.05,
     "logVersion": 2,
     "releaseDate": "Monday, September 15, 2025",
     "time": "00:14:17 GMT+6 (Dhaka)",
@@ -13,6 +13,4 @@
     "bit": "x64",
     "x64": "https://github.com/nabil-bot/Stable-Updates/raw/refs/heads/main/Nms%20Kontho%20Installer.exe",
     "x32": "https://github.com/nabil-bot/Stable-Updates/raw/refs/heads/main/Nms%20Kontho%20Installer%20x32.exe"
-
 }
-
