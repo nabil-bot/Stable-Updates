@@ -4,7 +4,7 @@
     "Changelog": "\ud83c\udd95 Updates and Fixes:\n\n3 Fine-Tunes and 1 Bug Fix:\n\n\u2b07\ufe0f Reduced the maximum number of ads per month to 11.\n\n\ud83d\udd11 Now, free users can turn off these ads by activating with any duration key. Kontho will not show the notification or web ad even if the activation is expired.\n\n\ud83c\udf99\ufe0f Increased the speech recognition limit in the free version to 1820 characters.\n\n\ud83d\udc1b Fixed the control div disable bug in the word manager in the Pro version.\n\n\ud83d\udee0\ufe0f A couple of fine-tunes.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.05,
+    "minVersion": 3,
     "logVersion": 2,
     "releaseDate": "Thursday, November 27, 2025",
     "time": "22:45:40 GMT+6 (Dhaka)",
