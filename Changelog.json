@@ -1,5 +1,5 @@
 {
-    "version": 7.032,
+    "version": 7.037,
     "pakage": "MSIX",
     "Changelog": "\ud83c\udd95 Updates and Fixes:\n\nFixed: Word suggestion window hiding issue.\n\nANSI 3 (for Stm-bnt fonts)\nANSI 4 (for Ittefaq font)\n",
     "size": "12 MB",
