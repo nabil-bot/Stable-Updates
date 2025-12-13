@@ -4,7 +4,7 @@
     "Changelog": "\ud83c\udd95 Updates and Fixes:\n\nFixed: Word suggestion window hiding issue.\n\nANSI 3 (for Stm-bnt fonts)\nANSI 4 (for Ittefaq font)\n",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.05,
+    "minVersion": 3,
     "logVersion": 2,
     "releaseDate": "Thursday, November 27, 2025",
     "time": "22:45:40 GMT+6 (Dhaka)",
