@@ -1,5 +1,5 @@
 {
-    "version": 7.03,
+    "version": 7.042,
     "pakage": "Portable",
     "Changelog": "\ud83c\udd95 Updates and Fixes:\n\n\ud83d\udee0\ufe0fFixes:\n\ud83d\udd37 Word Manager Bug Fixed.\n\ud83d\udd37 Word suggestion window hiding issue.\n\ud83d\udd37 Word Manager loading issue with '{' and '}'\n\nUpdates\n\ud83d\udd37 Undo/Redo command for Layout Builder.\n\ud83d\udd37 ANSI 3 (for Stm-bnt fonts)\n\ud83d\udd37 ANSI 4 (for Ittefaq font)\n\ud83d\udd37 Probhat Layout\n\ud83d\udd37 Soft update signal for nonmandatory updates",
     "size": "12 MB",
