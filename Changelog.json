@@ -1,5 +1,5 @@
 {
-    "version": 7.046,
+    "version": 7.047,
     "pakage": "Portable",
     "Changelog": "Trial version voice typing bug fixed. Added National Layout, ANSI 5 (for AdarshaLipi font).",
     "size": "12 MB",
