@@ -1,7 +1,7 @@
 {
-    "version": 7.04,
+    "version": 7.048,
     "pakage": "Portable",
-    "Changelog": "Trial version voice typing bug fixed. Added National Layout, ANSI 5 (for AdarshaLipi font).",
+    "Changelog": "🚀 Faster voice typing with the push-to-talk feature.\nFixed voice-typing encoding bugs in both Free and Pro versions. 🛠️",
     "size": "12 MB",
     "reinstall": false,
     "minVersion": 3,
