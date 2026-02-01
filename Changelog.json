@@ -1,10 +1,10 @@
 {
     "version": 7.049,
     "pakage": "Portable",
-    "Changelog": "🚀 Faster voice typing with the push-to-talk feature.\nFixed voice-typing encoding bugs in both Free and Pro versions. 🛠️",
+    "Changelog": "\ud83d\ude80 Faster voice typing with the push-to-talk feature.\nFixed voice-typing encoding bugs in both Free and Pro versions. \ud83d\udee0\ufe0f",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 3,
+    "minVersion": 4.05,
     "logVersion": 2,
     "releaseDate": "Saturday, December 27, 2025",
     "time": "13:04:47 GMT+6 (Dhaka)",
