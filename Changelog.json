@@ -1,5 +1,5 @@
 {
-    "version": 7.040,
+    "version": 7.049,
     "pakage": "Portable",
     "Changelog": "\ud83d\ude80 Faster voice typing with the push-to-talk feature.\nFixed voice-typing encoding bugs in both Free and Pro versions. \ud83d\udee0\ufe0f",
     "size": "12 MB",
