@@ -4,7 +4,7 @@
     "Changelog": "\ud83c\udd95 Updates:\n\n\ud83d\ude80 Updated the Gemini AI model system to a more dynamic structure, making it faster and more efficient.\n\nUpdated dictionary. ",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 4.05,
+    "minVersion": 3,
     "logVersion": 2,
     "releaseDate": "Tuesday, March 24, 2026",
     "time": "23:45:11 GMT+6 (Dhaka)",
