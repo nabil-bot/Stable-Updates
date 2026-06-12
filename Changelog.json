@@ -1,5 +1,5 @@
 {
-    "version": 7.052,
+    "version": 7.050,
     "pakage": "Portable",
     "Changelog": "\ud83c\udd95 Updates:\n\n1. Fixed the 'Hosonto' issue in the 'Avro Phonetic' layout.\n\n2. Reintroduced rearrange autocorrection and suggestions for English.\n\n3. Added a feature that remembers the cursor position for the current word in English (Pro).\n\n4. Text drag-and-drop now shows a toast notification when typing mode is off.\n\n5. Added extra options to the tray menu (voice typing, typing mode, and language options).",
     "size": "12 MB",
