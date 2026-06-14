@@ -4,7 +4,7 @@
     "Changelog": "\ud83c\udd95 Updates:\n\n1. Fixed the 'Hosonto' issue in the 'Avro Phonetic' layout.\n\n2. Reintroduced rearrange autocorrection and suggestions for English.\n\n3. Added a feature that remembers the cursor position for the current word in English (Pro).\n\n4. Text drag-and-drop now shows a toast notification when typing mode is off.\n\n5. Added extra options to the tray menu (voice typing, typing mode, and language options).\n\n6. Fixed punctuation marks interrupting sentence memory; they are now correctly included in the current sentence.(pro)",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 5.0,
+    "minVersion": 4.05,
     "logVersion": 2,
     "releaseDate": "Monday, June 15, 2026",
     "time": "00:05:36 GMT+6 (Dhaka)",
