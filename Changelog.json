@@ -1,10 +1,10 @@
 {
-    "version": 8.000,
+    "version": 8.0,
     "pakage": "Portable",
     "Changelog": "Uninatall the previous version and install this one.\ud83c\udd95 Updates:\n\nThis version is much faster and memory efficient than all the previous versions, yet it has got many new features and enhancements.\nUnderneath, it is a completely new application with many fine-tuning adjustments and improvements.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 2.354,
+    "minVersion": 3,
     "logVersion": 2,
     "releaseDate": "Saturday, November 07, 2026",
     "time": "23:47:13 GMT+6 (Dhaka)",
