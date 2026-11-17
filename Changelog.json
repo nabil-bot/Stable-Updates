@@ -1,10 +1,18 @@
 {
+<<<<<<< HEAD
     "version": 8.002,
+=======
+    "version": 8.0,
+>>>>>>> 0071f6bc766613bd5ce170f34a0b7852d24af2a9
     "pakage": "Portable",
     "Changelog": "\ud83c\udd95 Updates:\n\nThis version is much faster and memory efficient than all the previous versions, yet it has got many new features and enhancements.\nUnderneath, it is a completely new application with many fine-tuning adjustments and improvements.",
     "size": "12 MB",
     "reinstall": false,
+<<<<<<< HEAD
     "minVersion": 5.0,
+=======
+    "minVersion": 3,
+>>>>>>> 0071f6bc766613bd5ce170f34a0b7852d24af2a9
     "logVersion": 2,
     "releaseDate": "Tuesday, November 17, 2026",
     "time": "20:12:33 GMT+6 (Dhaka)",
