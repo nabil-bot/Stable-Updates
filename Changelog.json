@@ -4,7 +4,7 @@
     "Changelog": "\ud83c\udd95 Updates:\n\nThe vpn, device id mismatched/Block issue resolved for pro users.",
     "size": "12 MB",
     "reinstall": false,
-    "minVersion": 5.0,
+    "minVersion": 3,
     "logVersion": 2,
     "releaseDate": "Tuesday, November 24, 2026",
     "time": "19:23:45 GMT+6 (Dhaka)",
