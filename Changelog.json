@@ -8,8 +8,8 @@
     "logVersion": 2,
     "releaseDate": "Tuesday, November 24, 2026",
     "time": "19:23:45 GMT+6 (Dhaka)",
-    "mandatory": false,
-    "outDatedVersion": 6.1,
+    "mandatory": true,
+    "outDatedVersion": 7.50,
     "bit": "x64",
     "x64": "https://github.com/nabil-bot/Stable-Updates/raw/refs/heads/main/Nms%20Kontho%20Installer.exe",
     "x32": "https://github.com/nabil-bot/Stable-Updates/raw/refs/heads/main/Nms%20Kontho%20Installer%20x32.exe"
